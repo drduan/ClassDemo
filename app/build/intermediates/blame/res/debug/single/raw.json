@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/raw/smssdk_pydb",
+        "source": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/exploded-aar/SMSSDKGUI-2.0.2/res/raw/smssdk_pydb"
+    },
+    {
+        "merged": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/raw/libs",
+        "source": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/exploded-aar/SMSSDK-2.0.2/res/raw/libs"
+    },
+    {
+        "merged": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/raw/keep.xml"
+    }
+]

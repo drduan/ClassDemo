@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exam_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CET－4模拟考试"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/exam_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="试卷类型：练习"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/exam_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="考试时间：1小时"
+            android:textColor="#263238"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/exam_btn"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/light_green"
+            android:padding="5dp"
+            android:text="参加考试"
+            android:textColor="#263238"/>
+    </LinearLayout>
+</LinearLayout>

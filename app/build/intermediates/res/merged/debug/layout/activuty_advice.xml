@@ -1,0 +1,50 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.AdviceActivity">
+    <!-- 意见反馈-->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <include layout="@layout/ask_toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <EditText
+            android:id="@+id/advice_edit"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/shape_white"
+            android:gravity="top|left"
+            android:hint="请填写您的反馈意见(限200字)"
+            android:maxLength="200"
+            android:padding="5dp"
+            android:textColor="@color/dermvpure_text_regular"
+            android:textSize="12sp" />
+
+        <TextView
+        android:id="@+id/textView_show"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="x/y"
+        android:textColor="@color/dermvpure_text_regular"
+        android:textSize="12sp" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

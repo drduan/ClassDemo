@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <include layout="@layout/normal_bar"/>
+    <TextView
+
+        android:id="@+id/edit_ans_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="您的问题" />
+
+
+    <EditText
+        android:id="@+id/edit_ans_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.44"
+        android:allowUndo="true"
+        android:autoLink="all"
+        android:autoText="true"
+        android:background="#fafaf1"
+        android:backgroundTint="#b68b8b"
+        android:clickable="true"
+        android:editable="true"
+        android:enabled="true"
+        android:gravity="top"
+        android:hint="描述问题"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.1"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/ans_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/red"
+            android:text="提交" />
+
+        <Button
+            android:id="@+id/ans_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/red"
+
+            android:text="返回" />
+    </RelativeLayout>
+</LinearLayout>

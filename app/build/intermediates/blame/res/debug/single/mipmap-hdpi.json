@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_list_black_24dp.png",
+        "source": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/mipmap-hdpi/ic_list_black_24dp.png"
+    }
+]

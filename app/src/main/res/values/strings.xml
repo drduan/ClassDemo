@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">趣学</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="lession_practice">章节练习</string>
+    <string name="error_practice">错题练习</string>
+    <string name="random_practice">智能抽题</string>
+    <string name="exam_practice">模拟考试</string>
+    <string name="years_practice">历届真题</string>
+    <string name="previous_practice">考前压题</string>
+    <string name="tab_btn_classes">课程</string>
+    <string name="tab_btn_material">资料</string>
+    <string name="tab_btn_quesstion_bank">题库</string>
+    <string name="tab_btn_me">我的</string>
+    <string name="grid_microclasses">微课程</string>
+    <string name="grid_question_bank">试题库</string>
+    <string name="grid_quesstion_bank">试题库</string>
+    <string name="grid_e_resource">电子资源</string>
+    <string name="grid_exam_center">考试中心</string>
+    <string name="grid_project">项目实践</string>
+    <string name="grid_bussness">评价反馈</string>
+    <string name="grid_notice">信息推送</string>
+    <string name="grid_ask">互动问答</string>
+    <string name="grid_collection">我的收藏</string>
+    <string-array name="class_option">
+        <item>性能测试</item>
+        <item>软件测试 </item>
+        <item>自动化测试工具</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_classes">ClassesActivity</string>
+    <string name="title_activity_quesstion">QuesstionActivity</string>
+    <string name="title_activity_material">MaterialActivity</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="title_activity_ask">AskActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="hello">Hello World, Set_Text_TitleBar!</string>
+    <string name="open">open</string>
+
+    <string name="close">close</string>
+    <string name="add">提问</string>
+
+    <string name="head">这里是HeadView</string>
+
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+
+    <!--李胜-->
+    <string name="file_name">文件名</string>
+    <string name="people_who_upload">上传者</string>
+    <string name="file_size">文件大小</string>
+    <string name="file_btn">下载</string>
+    <string name="info_title">信息推送</string>
+    <string name="tv_info_title">腾讯无线</string>
+    <string name="author">上传者</string>
+
+    <string name="project_title">项目实践</string>
+
+
+    <string name="btn_scroll_view">ScrollView demo</string>
+    <string name="btn_list_view">ListView demo</string>
+
+    <string name="header_hint_refresh_normal">Pull to refresh</string>
+    <string name="header_hint_refresh_ready">Release to refresh</string>
+    <string name="header_hint_refresh_loading">Refreshing&#8230;</string>
+    <string name="header_hint_refresh_time">Time：</string>
+    <string name="footer_hint_load_normal">Load more</string>
+    <string name="footer_hint_load_ready">Release to load more</string>
+
+
+</resources>

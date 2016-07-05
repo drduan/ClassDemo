@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="0.1"
+        android:background="?attr/colorPrimary"
+        android:iconifiedByDefault="true"
+        android:queryHint="输入搜索"
+        android:imeOptions="actionGo"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:text="Go" />
+
+
+</LinearLayout>

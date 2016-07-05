@@ -1,0 +1,201 @@
+-injars /Users/duanxudong/Documents/ClassDemo/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /Users/duanxudong/Documents/ClassDemo/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/duanxudong/Downloads/android-sdk-macosx/build-tools/23.0.3/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /Users/duanxudong/Documents/ClassDemo/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class neusoft.duanxudong.com.classdemo.activity.DCApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.igexin.sdk.PushService {
+    <init>();
+}
+
+-keep class com.igexin.sdk.PushServiceUser {
+    <init>();
+}
+
+-keep class com.igexin.sdk.PushReceiver {
+    <init>();
+}
+
+-keep class com.igexin.sdk.PushManagerReceiver {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.ProjectActivity {
+    <init>();
+}
+
+-keep class com.igexin.sdk.PushActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.InfoActivity {
+    <init>();
+}
+
+-keep class com.igexin.sdk.GActivity {
+    <init>();
+}
+
+-keep class com.igexin.download.DownloadService {
+    <init>();
+}
+
+-keep class com.igexin.download.DownloadReceiver {
+    <init>();
+}
+
+-keep class com.igexin.download.DownloadProvider {
+    <init>();
+}
+
+-keep class com.igexin.getuiext.activity.GetuiExtActivity {
+    <init>();
+}
+
+-keep class com.igexin.getuiext.service.PayloadReceiver {
+    <init>();
+}
+
+-keep class com.igexin.getuiext.service.GetuiExtService {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.HomeActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.ClassesActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.base.BaseActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.QuesstionActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.MaterialActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.MeActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.CollectionActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.ExamActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.AskActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.PlayerActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.LeadActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.Activity_Post {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.ProjectInfo {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.VideoExampleActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.AskItemMore {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.LoginActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.Askinstance {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.DoAnswer {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.Register {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.Simu_kaoshi {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.DownloadActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.AdviceActivity {
+    <init>();
+}
+
+-keep class com.mob.tools.MobUIShell {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.wxapi.WXEntryActivity {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.MeJoinedProject {
+    <init>();
+}
+
+-keep class neusoft.duanxudong.com.classdemo.activity.LookHis {
+    <init>();
+}
+
+-keep class fm.jiecao.jcvideoplayer_lib.JCFullScreenActivity {
+    <init>();
+}
+
+-keep class com.liulishuo.filedownloader.services.FileDownloadService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

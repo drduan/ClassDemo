@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:id="@+id/file_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="false"
+        android:text="@string/file_name"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_uploader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="false"
+        android:text="@string/people_who_upload"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxEms="12"
+        android:singleLine="false"
+        android:text="@string/file_size"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="10dp"
+
+        android:background="@drawable/ic_get_app_black_24dp"
+        android:singleLine="true"
+       />
+
+
+</LinearLayout>

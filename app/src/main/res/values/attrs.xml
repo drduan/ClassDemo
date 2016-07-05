@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ListView">
+        <!-- Reference to an array resource that will populate the ListView.  For static content,
+             this is simpler than populating the ListView programmatically. -->
+        <attr name="android:entries" />
+        <!-- Drawable or color to draw between list items. -->
+        <attr name="android:divider"/>
+        <!-- Height of the divider. Will use the intrinsic height of the divider if this
+             is not specified. -->
+        <attr name="android:dividerHeight" />
+        <!-- When set to false, the ListView will not draw the divider after each header view.
+             The default value is true. -->
+        <attr name="android:headerDividersEnabled"/>
+        <!-- When set to false, the ListView will not draw the divider before each footer view.
+             The default value is true. -->
+        <attr name="android:footerDividersEnabled"/>
+        <!-- Drawable to draw above list content. -->
+        <attr name="android:overScrollHeader"/>
+        <!-- Drawable to draw below list content. -->
+        <attr name="android:overScrollFooter"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="Theme">
+        <!-- Horizontal ProgressBar style. This is a horizontal progress bar. -->
+        <attr name="progressBarStyleHorizontal" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FlashView">
+        <attr name="effect">
+            <enum name="accordion" value="0"/>
+            <enum name="cube" value="1"/>
+            <enum name="def" value="2"/>
+            <enum name="depthPage" value="3"/>
+            <enum name="inRightDown" value="4"/>
+            <enum name="inRightUp" value="5"/>
+            <enum name="rotate" value="6"/>
+            <enum name="zoomOutPage" value="7"/>
+
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+
+
+</resources>

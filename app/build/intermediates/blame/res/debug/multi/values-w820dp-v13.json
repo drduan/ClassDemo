@@ -1,0 +1,3360 @@
+[
+    {
+        "outputFile": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 81,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 81,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 81,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 81,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 45,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3870,
+                        "endColumn": 45,
+                        "endOffset": 3911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 86,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 86,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endColumn": 48,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3721,
+                        "endColumn": 48,
+                        "endOffset": 3765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 92,
+                    "endOffset": 547
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1208,
+                        "endColumn": 92,
+                        "endOffset": 1296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 552,
+                    "endColumn": 45,
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 3167,
+                        "endColumn": 42,
+                        "endOffset": 3208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endColumn": 42,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 2294,
+                        "endColumn": 39,
+                        "endOffset": 2332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 48,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 2748,
+                        "endColumn": 45,
+                        "endOffset": 2792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 41,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 2052,
+                        "endColumn": 38,
+                        "endOffset": 2089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endColumn": 46,
+                    "endOffset": 774
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2379,
+                        "endColumn": 43,
+                        "endOffset": 2421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 779,
+                    "endColumn": 50,
+                    "endOffset": 825
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1872,
+                        "endColumn": 47,
+                        "endOffset": 1918
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 830,
+                    "endColumn": 69,
+                    "endOffset": 895
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3650,
+                        "endColumn": 69,
+                        "endOffset": 3715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 900,
+                    "endColumn": 108,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1477,
+                        "endColumn": 108,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 46,
+                    "endOffset": 1051
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2658,
+                        "endColumn": 43,
+                        "endOffset": 2700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1056,
+                    "endColumn": 54,
+                    "endOffset": 1106
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2517,
+                        "endColumn": 51,
+                        "endOffset": 2567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1111,
+                    "endColumn": 102,
+                    "endOffset": 1209
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 102,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1214,
+                    "endColumn": 51,
+                    "endOffset": 1261
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2467,
+                        "endColumn": 48,
+                        "endOffset": 2514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1266,
+                    "endColumn": 52,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 2839,
+                        "endColumn": 49,
+                        "endOffset": 2887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 103,
+                    "endOffset": 1418
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 103,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1423,
+                    "endColumn": 83,
+                    "endOffset": 1502
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 1,
+                        "startOffset": 3565,
+                        "endColumn": 80,
+                        "endOffset": 3644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1507,
+                    "endLine": 89,
+                    "endColumn": 9,
+                    "endOffset": 3387
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_instapaper_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3392,
+                    "endColumn": 54,
+                    "endOffset": 3442
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3305,
+                        "endColumn": 51,
+                        "endOffset": 3355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3447,
+                    "endColumn": 52,
+                    "endOffset": 3495
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3358,
+                        "endColumn": 49,
+                        "endOffset": 3406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3500,
+                    "endColumn": 52,
+                    "endOffset": 3548
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 1,
+                        "startOffset": 3458,
+                        "endColumn": 49,
+                        "endOffset": 3506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3553,
+                    "endColumn": 57,
+                    "endOffset": 3606
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3509,
+                        "endColumn": 54,
+                        "endOffset": 3562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3611,
+                    "endColumn": 50,
+                    "endOffset": 3657
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3409,
+                        "endColumn": 47,
+                        "endOffset": 3455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3662,
+                    "endColumn": 43,
+                    "endOffset": 3701
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 2010,
+                        "endColumn": 40,
+                        "endOffset": 2049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3706,
+                    "endColumn": 54,
+                    "endOffset": 3756
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 3073,
+                        "endColumn": 51,
+                        "endOffset": 3123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3761,
+                    "endColumn": 104,
+                    "endOffset": 3861
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 104,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3866,
+                    "endColumn": 52,
+                    "endOffset": 3914
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 3022,
+                        "endColumn": 49,
+                        "endOffset": 3070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3919,
+                    "endColumn": 101,
+                    "endOffset": 4016
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endColumn": 101,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4021,
+                    "endColumn": 43,
+                    "endOffset": 4060
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3771,
+                        "endColumn": 43,
+                        "endOffset": 3810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4065,
+                    "endColumn": 85,
+                    "endOffset": 4146
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endColumn": 85,
+                        "endOffset": 1383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4151,
+                    "endColumn": 52,
+                    "endOffset": 4199
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3816,
+                        "endColumn": 52,
+                        "endOffset": 3864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4204,
+                    "endColumn": 42,
+                    "endOffset": 4242
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 3126,
+                        "endColumn": 39,
+                        "endOffset": 3164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4247,
+                    "endColumn": 86,
+                    "endOffset": 4329
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 86,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4334,
+                    "endColumn": 44,
+                    "endOffset": 4374
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2424,
+                        "endColumn": 41,
+                        "endOffset": 2464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4379,
+                    "endColumn": 43,
+                    "endOffset": 4418
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 2980,
+                        "endColumn": 40,
+                        "endOffset": 3019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4423,
+                    "endColumn": 59,
+                    "endOffset": 4478
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 4078,
+                        "endColumn": 56,
+                        "endOffset": 4133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4483,
+                    "endColumn": 54,
+                    "endOffset": 4533
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 2241,
+                        "endColumn": 51,
+                        "endOffset": 2291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4538,
+                    "endColumn": 46,
+                    "endOffset": 4580
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 46,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4585,
+                    "endColumn": 47,
+                    "endOffset": 4628
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 47,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4633,
+                    "endColumn": 49,
+                    "endOffset": 4678
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 488,
+                        "endColumn": 49,
+                        "endOffset": 533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4683,
+                    "endColumn": 53,
+                    "endOffset": 4732
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 53,
+                        "endOffset": 433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4737,
+                    "endColumn": 57,
+                    "endOffset": 4790
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 57,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4795,
+                    "endColumn": 52,
+                    "endOffset": 4843
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 654,
+                        "endColumn": 49,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4848,
+                    "endColumn": 60,
+                    "endOffset": 4904
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 595,
+                        "endColumn": 57,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4909,
+                    "endColumn": 45,
+                    "endOffset": 4950
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 45,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4955,
+                    "endColumn": 57,
+                    "endOffset": 5008
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 57,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5013,
+                    "endColumn": 57,
+                    "endOffset": 5066
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 57,
+                        "endOffset": 271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5071,
+                    "endColumn": 54,
+                    "endOffset": 5121
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 54,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5126,
+                    "endColumn": 56,
+                    "endOffset": 5178
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 56,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5183,
+                    "endColumn": 52,
+                    "endOffset": 5231
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2607,
+                        "endColumn": 49,
+                        "endOffset": 2655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5236,
+                    "endColumn": 103,
+                    "endOffset": 5335
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 103,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5340,
+                    "endColumn": 46,
+                    "endOffset": 5382
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 3260,
+                        "endColumn": 43,
+                        "endOffset": 3302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5387,
+                    "endColumn": 38,
+                    "endOffset": 5421
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2570,
+                        "endColumn": 35,
+                        "endOffset": 2604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5426,
+                    "endColumn": 83,
+                    "endOffset": 5505
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 83,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5510,
+                    "endColumn": 43,
+                    "endOffset": 5549
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1685,
+                        "endColumn": 40,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5554,
+                    "endColumn": 43,
+                    "endOffset": 5593
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1968,
+                        "endColumn": 40,
+                        "endOffset": 2007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5598,
+                    "endColumn": 60,
+                    "endOffset": 5654
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 1,
+                        "startOffset": 3916,
+                        "endColumn": 57,
+                        "endOffset": 3972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5659,
+                    "endColumn": 55,
+                    "endOffset": 5710
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 4136,
+                        "endColumn": 52,
+                        "endOffset": 4187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5715,
+                    "endColumn": 50,
+                    "endOffset": 5761
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 1,
+                        "startOffset": 4029,
+                        "endColumn": 47,
+                        "endOffset": 4075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5766,
+                    "endColumn": 55,
+                    "endOffset": 5817
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 3975,
+                        "endColumn": 52,
+                        "endOffset": 4026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5822,
+                    "endColumn": 63,
+                    "endOffset": 5881
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 4190,
+                        "endColumn": 60,
+                        "endOffset": 4249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5886,
+                    "endColumn": 48,
+                    "endOffset": 5930
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 2092,
+                        "endColumn": 45,
+                        "endOffset": 2136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5935,
+                    "endColumn": 47,
+                    "endOffset": 5978
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1590,
+                        "endColumn": 44,
+                        "endOffset": 1633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5983,
+                    "endColumn": 51,
+                    "endOffset": 6030
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 2139,
+                        "endColumn": 48,
+                        "endOffset": 2186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6035,
+                    "endColumn": 53,
+                    "endOffset": 6084
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 2189,
+                        "endColumn": 50,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6089,
+                    "endColumn": 50,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1636,
+                        "endColumn": 47,
+                        "endOffset": 1682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 46,
+                    "endOffset": 6182
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 2703,
+                        "endColumn": 43,
+                        "endOffset": 2745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6187,
+                    "endColumn": 48,
+                    "endOffset": 6231
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1921,
+                        "endColumn": 45,
+                        "endOffset": 1965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6236,
+                    "endColumn": 59,
+                    "endOffset": 6291
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4252,
+                        "endColumn": 56,
+                        "endOffset": 4307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6296,
+                    "endColumn": 45,
+                    "endOffset": 6337
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 2795,
+                        "endColumn": 42,
+                        "endOffset": 2836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6342,
+                    "endColumn": 59,
+                    "endOffset": 6397
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 59,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6402,
+                    "endColumn": 44,
+                    "endOffset": 6442
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1727,
+                        "endColumn": 41,
+                        "endOffset": 1767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6447,
+                    "endColumn": 86,
+                    "endOffset": 6529
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 86,
+                        "endOffset": 321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6534,
+                    "endColumn": 52,
+                    "endOffset": 6582
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1821,
+                        "endColumn": 49,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6587,
+                    "endColumn": 52,
+                    "endOffset": 6635
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1770,
+                        "endColumn": 49,
+                        "endOffset": 1818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6640,
+                    "endColumn": 59,
+                    "endOffset": 6695
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 59,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6700,
+                    "endColumn": 58,
+                    "endOffset": 6754
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 58,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6759,
+                    "endColumn": 50,
+                    "endOffset": 6805
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 3211,
+                        "endColumn": 47,
+                        "endOffset": 3257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6810,
+                    "endColumn": 98,
+                    "endOffset": 6904
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1108,
+                        "endColumn": 98,
+                        "endOffset": 1202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6909,
+                    "endColumn": 41,
+                    "endOffset": 6946
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 2890,
+                        "endColumn": 38,
+                        "endOffset": 2927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6951,
+                    "endColumn": 83,
+                    "endOffset": 7030
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 83,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7035,
+                    "endColumn": 51,
+                    "endOffset": 7082
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 2930,
+                        "endColumn": 48,
+                        "endOffset": 2977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7087,
+                    "endColumn": 45,
+                    "endOffset": 7128
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 2335,
+                        "endColumn": 42,
+                        "endOffset": 2376
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/duanxudong/Documents/ClassDemo/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 81,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 81,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 81,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 81,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 45,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3870,
+                        "endColumn": 45,
+                        "endOffset": 3911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 86,
+                    "endOffset": 405
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 86,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 410,
+                    "endColumn": 48,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3721,
+                        "endColumn": 48,
+                        "endOffset": 3765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 92,
+                    "endOffset": 547
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1208,
+                        "endColumn": 92,
+                        "endOffset": 1296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 552,
+                    "endColumn": 45,
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 3167,
+                        "endColumn": 42,
+                        "endOffset": 3208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endColumn": 42,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 2294,
+                        "endColumn": 39,
+                        "endOffset": 2332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 48,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 2748,
+                        "endColumn": 45,
+                        "endOffset": 2792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 41,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 2052,
+                        "endColumn": 38,
+                        "endOffset": 2089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endColumn": 46,
+                    "endOffset": 774
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2379,
+                        "endColumn": 43,
+                        "endOffset": 2421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 779,
+                    "endColumn": 50,
+                    "endOffset": 825
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1872,
+                        "endColumn": 47,
+                        "endOffset": 1918
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 830,
+                    "endColumn": 69,
+                    "endOffset": 895
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3650,
+                        "endColumn": 69,
+                        "endOffset": 3715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 900,
+                    "endColumn": 108,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1477,
+                        "endColumn": 108,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 46,
+                    "endOffset": 1051
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2658,
+                        "endColumn": 43,
+                        "endOffset": 2700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1056,
+                    "endColumn": 54,
+                    "endOffset": 1106
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2517,
+                        "endColumn": 51,
+                        "endOffset": 2567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1111,
+                    "endColumn": 102,
+                    "endOffset": 1209
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 102,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1214,
+                    "endColumn": 51,
+                    "endOffset": 1261
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2467,
+                        "endColumn": 48,
+                        "endOffset": 2514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1266,
+                    "endColumn": 52,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 2839,
+                        "endColumn": 49,
+                        "endOffset": 2887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 103,
+                    "endOffset": 1418
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 103,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1423,
+                    "endColumn": 83,
+                    "endOffset": 1502
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 1,
+                        "startOffset": 3565,
+                        "endColumn": 80,
+                        "endOffset": 3644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1507,
+                    "endLine": 89,
+                    "endColumn": 9,
+                    "endOffset": 3387
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_instapaper_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3392,
+                    "endColumn": 54,
+                    "endOffset": 3442
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3305,
+                        "endColumn": 51,
+                        "endOffset": 3355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3447,
+                    "endColumn": 52,
+                    "endOffset": 3495
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3358,
+                        "endColumn": 49,
+                        "endOffset": 3406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3500,
+                    "endColumn": 52,
+                    "endOffset": 3548
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 1,
+                        "startOffset": 3458,
+                        "endColumn": 49,
+                        "endOffset": 3506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3553,
+                    "endColumn": 57,
+                    "endOffset": 3606
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3509,
+                        "endColumn": 54,
+                        "endOffset": 3562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3611,
+                    "endColumn": 50,
+                    "endOffset": 3657
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3409,
+                        "endColumn": 47,
+                        "endOffset": 3455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3662,
+                    "endColumn": 43,
+                    "endOffset": 3701
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 2010,
+                        "endColumn": 40,
+                        "endOffset": 2049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3706,
+                    "endColumn": 54,
+                    "endOffset": 3756
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 3073,
+                        "endColumn": 51,
+                        "endOffset": 3123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3761,
+                    "endColumn": 104,
+                    "endOffset": 3861
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 104,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3866,
+                    "endColumn": 52,
+                    "endOffset": 3914
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 3022,
+                        "endColumn": 49,
+                        "endOffset": 3070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3919,
+                    "endColumn": 101,
+                    "endOffset": 4016
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endColumn": 101,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4021,
+                    "endColumn": 43,
+                    "endOffset": 4060
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3771,
+                        "endColumn": 43,
+                        "endOffset": 3810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4065,
+                    "endColumn": 85,
+                    "endOffset": 4146
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endColumn": 85,
+                        "endOffset": 1383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4151,
+                    "endColumn": 52,
+                    "endOffset": 4199
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3816,
+                        "endColumn": 52,
+                        "endOffset": 3864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4204,
+                    "endColumn": 42,
+                    "endOffset": 4242
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 3126,
+                        "endColumn": 39,
+                        "endOffset": 3164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4247,
+                    "endColumn": 86,
+                    "endOffset": 4329
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 86,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4334,
+                    "endColumn": 44,
+                    "endOffset": 4374
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2424,
+                        "endColumn": 41,
+                        "endOffset": 2464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4379,
+                    "endColumn": 43,
+                    "endOffset": 4418
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 2980,
+                        "endColumn": 40,
+                        "endOffset": 3019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4423,
+                    "endColumn": 59,
+                    "endOffset": 4478
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 4078,
+                        "endColumn": 56,
+                        "endOffset": 4133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4483,
+                    "endColumn": 54,
+                    "endOffset": 4533
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 2241,
+                        "endColumn": 51,
+                        "endOffset": 2291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4538,
+                    "endColumn": 46,
+                    "endOffset": 4580
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 46,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4585,
+                    "endColumn": 47,
+                    "endOffset": 4628
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 47,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4633,
+                    "endColumn": 49,
+                    "endOffset": 4678
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 488,
+                        "endColumn": 49,
+                        "endOffset": 533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4683,
+                    "endColumn": 53,
+                    "endOffset": 4732
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 53,
+                        "endOffset": 433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4737,
+                    "endColumn": 57,
+                    "endOffset": 4790
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 57,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4795,
+                    "endColumn": 52,
+                    "endOffset": 4843
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 654,
+                        "endColumn": 49,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4848,
+                    "endColumn": 60,
+                    "endOffset": 4904
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 595,
+                        "endColumn": 57,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4909,
+                    "endColumn": 45,
+                    "endOffset": 4950
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 45,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4955,
+                    "endColumn": 57,
+                    "endOffset": 5008
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 57,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5013,
+                    "endColumn": 57,
+                    "endOffset": 5066
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 57,
+                        "endOffset": 271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5071,
+                    "endColumn": 54,
+                    "endOffset": 5121
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 54,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5126,
+                    "endColumn": 56,
+                    "endOffset": 5178
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 56,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5183,
+                    "endColumn": 52,
+                    "endOffset": 5231
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2607,
+                        "endColumn": 49,
+                        "endOffset": 2655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5236,
+                    "endColumn": 103,
+                    "endOffset": 5335
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 103,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5340,
+                    "endColumn": 46,
+                    "endOffset": 5382
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 3260,
+                        "endColumn": 43,
+                        "endOffset": 3302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5387,
+                    "endColumn": 38,
+                    "endOffset": 5421
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2570,
+                        "endColumn": 35,
+                        "endOffset": 2604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5426,
+                    "endColumn": 83,
+                    "endOffset": 5505
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 83,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5510,
+                    "endColumn": 43,
+                    "endOffset": 5549
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1685,
+                        "endColumn": 40,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5554,
+                    "endColumn": 43,
+                    "endOffset": 5593
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1968,
+                        "endColumn": 40,
+                        "endOffset": 2007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5598,
+                    "endColumn": 60,
+                    "endOffset": 5654
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 1,
+                        "startOffset": 3916,
+                        "endColumn": 57,
+                        "endOffset": 3972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5659,
+                    "endColumn": 55,
+                    "endOffset": 5710
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 4136,
+                        "endColumn": 52,
+                        "endOffset": 4187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5715,
+                    "endColumn": 50,
+                    "endOffset": 5761
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 1,
+                        "startOffset": 4029,
+                        "endColumn": 47,
+                        "endOffset": 4075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5766,
+                    "endColumn": 55,
+                    "endOffset": 5817
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 3975,
+                        "endColumn": 52,
+                        "endOffset": 4026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5822,
+                    "endColumn": 63,
+                    "endOffset": 5881
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 4190,
+                        "endColumn": 60,
+                        "endOffset": 4249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5886,
+                    "endColumn": 48,
+                    "endOffset": 5930
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 2092,
+                        "endColumn": 45,
+                        "endOffset": 2136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5935,
+                    "endColumn": 47,
+                    "endOffset": 5978
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1590,
+                        "endColumn": 44,
+                        "endOffset": 1633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5983,
+                    "endColumn": 51,
+                    "endOffset": 6030
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 2139,
+                        "endColumn": 48,
+                        "endOffset": 2186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6035,
+                    "endColumn": 53,
+                    "endOffset": 6084
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 2189,
+                        "endColumn": 50,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6089,
+                    "endColumn": 50,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1636,
+                        "endColumn": 47,
+                        "endOffset": 1682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 46,
+                    "endOffset": 6182
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 2703,
+                        "endColumn": 43,
+                        "endOffset": 2745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6187,
+                    "endColumn": 48,
+                    "endOffset": 6231
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1921,
+                        "endColumn": 45,
+                        "endOffset": 1965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6236,
+                    "endColumn": 59,
+                    "endOffset": 6291
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4252,
+                        "endColumn": 56,
+                        "endOffset": 4307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6296,
+                    "endColumn": 45,
+                    "endOffset": 6337
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 2795,
+                        "endColumn": 42,
+                        "endOffset": 2836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6342,
+                    "endColumn": 59,
+                    "endOffset": 6397
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 59,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6402,
+                    "endColumn": 44,
+                    "endOffset": 6442
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1727,
+                        "endColumn": 41,
+                        "endOffset": 1767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6447,
+                    "endColumn": 86,
+                    "endOffset": 6529
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 86,
+                        "endOffset": 321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6534,
+                    "endColumn": 52,
+                    "endOffset": 6582
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1821,
+                        "endColumn": 49,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6587,
+                    "endColumn": 52,
+                    "endOffset": 6635
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1770,
+                        "endColumn": 49,
+                        "endOffset": 1818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6640,
+                    "endColumn": 59,
+                    "endOffset": 6695
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 59,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6700,
+                    "endColumn": 58,
+                    "endOffset": 6754
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 58,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6759,
+                    "endColumn": 50,
+                    "endOffset": 6805
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 3211,
+                        "endColumn": 47,
+                        "endOffset": 3257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6810,
+                    "endColumn": 98,
+                    "endOffset": 6904
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1108,
+                        "endColumn": 98,
+                        "endOffset": 1202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6909,
+                    "endColumn": 41,
+                    "endOffset": 6946
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 2890,
+                        "endColumn": 38,
+                        "endOffset": 2927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6951,
+                    "endColumn": 83,
+                    "endOffset": 7030
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 83,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7035,
+                    "endColumn": 51,
+                    "endOffset": 7082
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 2930,
+                        "endColumn": 48,
+                        "endOffset": 2977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7087,
+                    "endColumn": 45,
+                    "endOffset": 7128
+                },
+                "from": {
+                    "file": "/Users/duanxudong/Documents/ClassDemo/app/src/main/res/values-w820dp/ssdk_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 2335,
+                        "endColumn": 42,
+                        "endOffset": 2376
+                    }
+                }
+            }
+        ]
+    }
+]
