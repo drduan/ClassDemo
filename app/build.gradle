@@ -33,9 +33,9 @@ android {
                 GETUI_APP_SECRET : "WbGKUtBirt9rl2ebvOgjK2"
         ]
 
-//        ndk={
-//            abiFilters "armeabi", "armeabi-v7a", "x86_64"
-//        }
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86_64"
+        }
     }
     dataBinding {
         enabled = true

@@ -24,6 +24,7 @@ import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.gson.Gson;
 import com.igexin.sdk.PushManager;
+import com.igexin.sdk.PushService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +34,8 @@ import butterknife.ButterKnife;
 import cn.sharesdk.framework.ShareSDK;
 import cn.smssdk.SMSSDK;
 import neusoft.duanxudong.com.classdemo.R;
+import neusoft.duanxudong.com.classdemo.Service.DemoIntentService;
+import neusoft.duanxudong.com.classdemo.Service.DemoPushService;
 import neusoft.duanxudong.com.classdemo.effect.EffectConstants;
 import neusoft.duanxudong.com.classdemo.model.User;
 import neusoft.duanxudong.com.classdemo.widget.FlashView;
@@ -121,9 +124,9 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
         }
 
 
-//        PushManager.getInstance().initialize(this.getApplicationContext());
-        SMSSDK.initSDK(this, "ed68736f30f3", "3a2e2b7392b2f6838f07540b38533e90");
-
+        PushManager.getInstance().initialize(this.getApplicationContext(), DemoPushService.class);
+        // com.getui.demo.DemoIntentService 为第三  定义的推送服务事件接收类
+        PushManager.getInstance().registerPushIntentService(this.getApplicationContext(), DemoIntentService.class);
 
     }
 
