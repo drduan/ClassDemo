@@ -27,7 +27,15 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders=[
+                GETUI_APP_ID : "eIL8rrIhCg5ENrErEn1v74",
+                GETUI_APP_KEY : "YEqqkx8RNhA82mTJxntIV8",
+                GETUI_APP_SECRET : "WbGKUtBirt9rl2ebvOgjK2"
+        ]
 
+//        ndk={
+//            abiFilters "armeabi", "armeabi-v7a", "x86_64"
+//        }
     }
     dataBinding {
         enabled = true
@@ -69,6 +77,12 @@ android {
 
         }
     }
+//    packageOptions {
+//
+//        exclude 'META-INF/LICENSE.txt'
+//        exclude 'META-INF/NOTICE.txt'
+//
+//    }
     sourceSets {
         main {
             jniLibs.srcDir 'src/main/libs'
