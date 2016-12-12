@@ -121,7 +121,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
         }
 
 
-        PushManager.getInstance().initialize(this.getApplicationContext());
+//        PushManager.getInstance().initialize(this.getApplicationContext());
         SMSSDK.initSDK(this, "ed68736f30f3", "3a2e2b7392b2f6838f07540b38533e90");
 
 

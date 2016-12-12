@@ -44,8 +44,7 @@ public class PicViewerPage extends OnekeySharePage implements OnGlobalLayoutList
 	}
 
 	public void onGlobalLayout() {
-//		sivViewer.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-		sivViewer.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+		sivViewer.getViewTreeObserver().removeGlobalOnLayoutListener(this);
 		sivViewer.post(new Runnable() {
 			public void run() {
 				sivViewer.setBitmap(pic);

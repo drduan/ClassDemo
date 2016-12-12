@@ -135,7 +135,7 @@ public class EditPageLand extends EditPage implements OnClickListener, TextWatch
 		etContent = new EditText(activity);
 		int padding = (int) (DESIGN_LEFT_PADDING * ratio);
 		etContent.setPadding(padding, padding, padding, padding);
-		etContent.setBackground(null);
+		etContent.setBackgroundDrawable(null);
 		etContent.setTextColor(0xff3b3b3b);
 		etContent.setTextSize(TypedValue.COMPLEX_UNIT_SP, 21);
 		etContent.setText(sp.getText());

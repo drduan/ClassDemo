@@ -95,7 +95,7 @@ public class Activity_Post extends BaseActivity {
 //        mToolbar.setTitle("发布");
         setSupportActionBar(mToolbar);
         mToolbar.setTitle(title);
-        mToolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+//        mToolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

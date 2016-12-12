@@ -75,11 +75,7 @@
             android:exported="true"
             android:label="NotificationCenter"
             android:process=":pushservice" />
-        <service
-            android:name="com.igexin.sdk.PushServiceUser"
-            android:exported="true"
 
-            android:label="NotificationCenterUser" />
 
         <receiver android:name="com.igexin.sdk.PushReceiver">
             <intent-filter>
@@ -94,13 +90,6 @@
             </intent-filter>
         </receiver>
 
-        <receiver
-            android:name="com.igexin.sdk.PushManagerReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.igexin.sdk.action.pushmanager" />
-            </intent-filter>
-        </receiver>
 
         <activity android:name=".activity.ProjectActivity" />
         <activity
@@ -135,27 +124,7 @@
             android:exported="true"
             android:process=":pushservice" /><!--替换为第三方应用的包名-->
 
-        <activity
-            android:name="com.igexin.getuiext.activity.GetuiExtActivity"
-            android:configChanges="orientation|keyboard|keyboardHidden"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:process=":pushservice"
-            android:taskAffinity="android.task.myServicetask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <receiver
-            android:name="com.igexin.getuiext.service.PayloadReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
-                <action android:name="com.igexin.sdk.action.eIL8rrIhCg5ENrErEn1v74" /><!--替换为第三方应用的APPID-->
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.igexin.getuiext.service.GetuiExtService"
-            android:process=":pushservice" />
 
 
         <activity android:name=".activity.HomeActivity"
