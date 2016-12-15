@@ -42,8 +42,8 @@ import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
  */
 public class DownloadActivity extends BaseActivity {
 
-    RecyclerView recycleview;
     static ProgressBar progressBar;
+    RecyclerView recycleview;
     List<FileResource> list;
     String[] names;
     String[] uploaders;
@@ -157,7 +157,7 @@ public class DownloadActivity extends BaseActivity {
 
             LoggingUtils.debug("@@", android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + finame);
 
-            FileDownloader.getImpl().create(uri).setPath(android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + finame+".ppt")
+            FileDownloader.getImpl().create(uri).setPath(android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + finame + ".ppt")
                     .addFinishListener(new BaseDownloadTask.FinishListener() {
                         @Override
                         public void over(BaseDownloadTask task) {

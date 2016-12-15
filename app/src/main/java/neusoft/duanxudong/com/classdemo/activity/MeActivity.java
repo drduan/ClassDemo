@@ -6,12 +6,10 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.drawable.GradientDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.os.Message;
 import android.provider.MediaStore;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -23,28 +21,22 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 
-
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.model.User;
 import neusoft.duanxudong.com.classdemo.util.GalleryUtils;
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-import okio.BufferedSink;
 
 /**
  * Created by duanxudong on 16/3/26.
@@ -54,45 +46,31 @@ import okio.BufferedSink;
 public class MeActivity extends BaseActivity implements View.OnClickListener {
 
 
-    Uri mCapturedImageUri;
-    // PhotoData photoData;
-
-    private ProgressDialog dialog;
-
     public static final int REQUEST_CHOOSE_FROM_GALLERY = 0x300;
+    // PhotoData photoData;
     public static final int REQUEST_TAKE_PHOTO = 0x301;
     public static final int REQUEST_CROP = 0x303;
-
+    Uri mCapturedImageUri;
     String userData;
     User user;
-
     @Bind(R.id.settings_avatar)
     ImageView head_image;
-
     @Bind(R.id.nicheng_settings)
     EditText nicheng;
-
     @Bind(R.id.passwd_settings)
     EditText passwd;
-
     @Bind(R.id.phon8e_settings)
     EditText phone;
-
     @Bind(R.id.grade_settings)
     EditText grade;
-
     @Bind(R.id.ask_add)
     Toolbar toolbar;
-
-
     @Bind(R.id.center_tv)
     TextView center_tv;
-
-
     @Bind(R.id.ask_bar_tv)
 
     TextView bar_add;
-
+    private ProgressDialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -227,7 +205,6 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
         if (REQUEST_CHOOSE_FROM_GALLERY == requestCode || REQUEST_TAKE_PHOTO == requestCode) {
 
 
-
             onCrop(mCapturedImageUri);
 
 
@@ -262,7 +239,6 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
         final MediaType MEDIA_TYPE_PNG = MediaType.parse("image/jpg");
 
 
-
         if (mCapturedImageUri == null) {
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                 @Override
@@ -273,7 +249,7 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
                     finish();
 
                 }
-            },100);
+            }, 100);
 
             Toast.makeText(getApplicationContext(), "无照片", Toast.LENGTH_LONG).show();
 
@@ -282,10 +258,10 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
             RequestBody requestBody = new MultipartBody.Builder()
                     .setType(MultipartBody.FORM)
                     .addFormDataPart("userID", "" + user.getId())
-                    .addFormDataPart("nickname",nicheng.getText().toString())
-                    .addFormDataPart("passwd",passwd.getText().toString())
-                    .addFormDataPart("phone",phone.getText().toString())
-                    .addFormDataPart("grade",grade.getText().toString())
+                    .addFormDataPart("nickname", nicheng.getText().toString())
+                    .addFormDataPart("passwd", passwd.getText().toString())
+                    .addFormDataPart("phone", phone.getText().toString())
+                    .addFormDataPart("grade", grade.getText().toString())
                     .addFormDataPart("file", "logo-square.png",
                             RequestBody.create(MEDIA_TYPE_PNG, new File(GalleryUtils.getFilePath(this, mCapturedImageUri))))
                     .build();
@@ -319,11 +295,10 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
                 public void onResponse(Call call, Response r) throws IOException {
 
 
-
                     String result = r.body().string();
                     Log.e("@@", result);
 
-                    String head_img = new Gson().fromJson(result,RegLog.class).getUser().getHead_url();
+                    String head_img = new Gson().fromJson(result, RegLog.class).getUser().getHead_url();
                     Log.e("@@", head_img);
 
                     User user1 = new User();

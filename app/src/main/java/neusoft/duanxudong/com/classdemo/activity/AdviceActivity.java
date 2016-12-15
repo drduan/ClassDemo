@@ -12,8 +12,6 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 
-import org.w3c.dom.Text;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,7 +20,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.model.User;
-import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 
 
 /**
@@ -82,7 +79,7 @@ public class AdviceActivity extends BaseActivity {
                     return;
                 }
 
-                show.setText(String.format("意见反馈 (%s/200)",s.length()));
+                show.setText(String.format("意见反馈 (%s/200)", s.length()));
 
             }
         });

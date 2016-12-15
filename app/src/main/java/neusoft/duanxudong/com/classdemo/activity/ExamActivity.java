@@ -19,12 +19,11 @@ import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 
 public class ExamActivity extends BaseActivity {
 
-    private SimpleAdapter mAdapter;
-
     @Bind(R.id.toolbar)
     Toolbar toolbar;
     @Bind(R.id.listview)
-    ListView   mListView;
+    ListView mListView;
+    private SimpleAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +36,6 @@ public class ExamActivity extends BaseActivity {
 
         initDatas();
     }
-
 
 
     private void initDatas() {
@@ -63,9 +61,8 @@ public class ExamActivity extends BaseActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
-
-                        LoggingUtils.error("@@","as");
-                        Intent intent = new Intent().setClass(getApplicationContext(),Simu_kaoshi.class);
+                        LoggingUtils.error("@@", "as");
+                        Intent intent = new Intent().setClass(getApplicationContext(), Simu_kaoshi.class);
                         startActivity(intent);
                     }
                 }

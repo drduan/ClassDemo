@@ -28,7 +28,6 @@ import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 import okhttp3.FormBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
@@ -38,23 +37,18 @@ public class VideoExampleActivity extends BaseActivity
 
 {
 
+    public static final String TAG = "MyTag";
     @Bind(R.id.video_vp)
     ViewPager viewPager;
     @Bind(R.id.video_tab)
     TabLayout video_tab;
     ArrayList<Video> list;
-
     @Bind(R.id.toolbar)
     Toolbar toolbar;
-
-
     @Bind(R.id.custom_videoplayer_standard)
     JCVideoPlayerStandard jcVideoPlayerStandard;
-
     String userData;
     private long subid;
-    public static final String TAG = "MyTag";
-
     private String Comment;
 
 

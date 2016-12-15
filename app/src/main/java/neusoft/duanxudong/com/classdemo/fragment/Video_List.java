@@ -1,11 +1,9 @@
 package neusoft.duanxudong.com.classdemo.fragment;
 
 import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,13 +11,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.google.gson.Gson;
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,20 +22,7 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
-import neusoft.duanxudong.com.classdemo.model.TaskService;
 import neusoft.duanxudong.com.classdemo.model.Video;
-
-import neusoft.duanxudong.com.classdemo.util.GsonConverterFactory;
-
-import okhttp3.FormBody;
-import okhttp3.HttpUrl;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okio.BufferedSink;
-import retrofit2.Retrofit;
 
 
 /**
@@ -48,10 +30,10 @@ import retrofit2.Retrofit;
  */
 public class Video_List extends Fragment {
 
+    public ArrayList<Video> list;
     @Bind(R.id.video_list)
     ListView liview;
     SimpleAdapter mListAdapter;
-    public ArrayList<Video> list;
 
     @Nullable
     @Override

@@ -3,14 +3,11 @@ package neusoft.duanxudong.com.classdemo.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.widget.SearchView;
-import android.support.v7.widget.Toolbar;
 import android.view.ContextMenu;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -54,15 +51,13 @@ import neusoft.duanxudong.com.classdemo.util.MySingleton;
 
 
 public class ClassesActivity extends BaseActivity implements AdapterView.OnItemClickListener {
-    private ListView mListView;
-
+    public static final String TAG = "MyTag";
     @Bind(R.id.sv)
     SearchView searchView;
+    private ListView mListView;
     private SimpleAdapter mListAdapter;
     private SubjectListModel datas;
     private RequestQueue mQueue;
-    public static final String TAG = "MyTag";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -162,7 +157,6 @@ public class ClassesActivity extends BaseActivity implements AdapterView.OnItemC
 //
 
 
-
     private void initListDatas() {
         String[] from = {"class_title", "class_images", "class_introduce"};
         int[] to = {R.id.class_title, R.id.class_image, R.id.class_introduce};
@@ -227,15 +221,12 @@ public class ClassesActivity extends BaseActivity implements AdapterView.OnItemC
         new Runnable() {
             @Override
             public void run() {
-                    Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>(300 , 400) {
-                        @Override
-                        public void onResourceReady(Bitmap bitmapp, GlideAnimation anim) {
-                            map.put("class_images", bitmapp);
-                        }
-                    });
-
-
-
+                Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>(300, 400) {
+                    @Override
+                    public void onResourceReady(Bitmap bitmapp, GlideAnimation anim) {
+                        map.put("class_images", bitmapp);
+                    }
+                });
 
 
                 mListAdapter.notifyDataSetChanged();

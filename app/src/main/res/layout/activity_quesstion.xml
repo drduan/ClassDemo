@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:background="@color/background"
+    android:fitsSystemWindows="true"
     android:orientation="vertical">
 
 
-    <include layout="@layout/normal_bar"/>
+    <include layout="@layout/normal_bar" />
+
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
         android:paddingBottom="15dp"
         android:paddingLeft="10dp"
 
-        android:paddingTop="15dp"/>
+        android:paddingTop="15dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,12 +27,12 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/zhangjielianxi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:id="@+id/zhangjielianxi"
             android:background="@color/white"
             android:gravity="center"
             android:orientation="vertical"
@@ -47,8 +48,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textColor="#263238"
-                android:text="@string/lession_practice" />
+                android:text="@string/lession_practice"
+                android:textColor="#263238" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,14 +76,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/error_practice"
-                android:textColor="#263238"/>
+                android:textColor="#263238" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/monikaoshi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:id="@+id/monikaoshi"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@color/white"
@@ -90,6 +91,7 @@
             android:orientation="vertical"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -100,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/exam_practice"
-                android:textColor="#263238"/>
+                android:textColor="#263238" />
 
         </LinearLayout>
     </LinearLayout>

@@ -16,7 +16,7 @@ public class AppUtil {
     public static String getVersionName(Context context) {
         try {
             PackageManager packageManager = context.getPackageManager();
-            PackageInfo packInfo = packageManager.getPackageInfo(context.getPackageName(),0);
+            PackageInfo packInfo = packageManager.getPackageInfo(context.getPackageName(), 0);
             String version = packInfo.versionName;
             if (!TextUtils.isEmpty(version)) {
                 return version;

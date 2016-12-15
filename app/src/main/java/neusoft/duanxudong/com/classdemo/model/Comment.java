@@ -7,6 +7,12 @@ import java.util.Date;
 public class Comment {
 
     private int id;
+    private long userid;
+    private long subid;
+    private int star;
+    private String comment;
+    private Date add_date;
+    private User user;
 
     public int getId() {
         return id;
@@ -56,20 +62,6 @@ public class Comment {
         this.add_date = add_date;
     }
 
-
-    private long userid;
-
-    private long subid;
-
-    private int star;
-
-    private String comment;
-
-
-    private Date add_date;
-
-
-    private User user;
     public User getUser() {
         return user;
     }

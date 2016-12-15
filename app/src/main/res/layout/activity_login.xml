@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <include layout="@layout/normal_bar"/>
+    <include layout="@layout/normal_bar" />
 
 
     <TextView
@@ -56,11 +56,11 @@
 
     <TextView
         android:id="@+id/login"
-        android:paddingTop="20dp"
-
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
+        android:paddingTop="20dp"
         android:text="登陆"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 

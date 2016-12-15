@@ -12,8 +12,8 @@
         android:layout_weight="0.1"
         android:background="?attr/colorPrimary"
         android:iconifiedByDefault="true"
-        android:queryHint="输入搜索"
         android:imeOptions="actionGo"
+        android:queryHint="输入搜索"
 
         />
 

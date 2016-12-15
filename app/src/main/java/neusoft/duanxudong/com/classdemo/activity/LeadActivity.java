@@ -13,7 +13,7 @@ import neusoft.duanxudong.com.classdemo.util.AnimationUtil;
  */
 
 
-public class LeadActivity extends AppCompatActivity{
+public class LeadActivity extends AppCompatActivity {
 
     private static final long DELAY_TIME = 500L;
 
@@ -28,8 +28,6 @@ public class LeadActivity extends AppCompatActivity{
         redirectByTime();
 
     }
-
-
 
 
     private void redirectByTime() {

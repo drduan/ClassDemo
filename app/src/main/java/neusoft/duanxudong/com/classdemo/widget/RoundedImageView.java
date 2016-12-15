@@ -1,4 +1,3 @@
-
 package neusoft.duanxudong.com.classdemo.widget;
 
 import android.content.Context;
@@ -257,10 +256,14 @@ public class RoundedImageView extends ImageView {
     }
 
 
-
     public float getCornerRadius() {
 
         return cornerRadius;
+    }
+
+    public void setCornerRadius(int resId) {
+
+        setCornerRadius(getResources().getDimension(resId));
     }
 
     public void setCornerRadius(float radius) {
@@ -274,14 +277,14 @@ public class RoundedImageView extends ImageView {
         updateBackgroundDrawableAttrs(false);
     }
 
-    public void setCornerRadius(int resId) {
-
-        setCornerRadius(getResources().getDimension(resId));
-    }
-
     public float getBorderWidth() {
 
         return borderWidth;
+    }
+
+    public void setBorderWidth(int resId) {
+
+        setBorderWidth(getResources().getDimension(resId));
     }
 
     public void setBorderWidth(float width) {
@@ -296,14 +299,14 @@ public class RoundedImageView extends ImageView {
         invalidate();
     }
 
-    public void setBorderWidth(int resId) {
-
-        setBorderWidth(getResources().getDimension(resId));
-    }
-
     public int getBorderColor() {
 
         return borderColor.getDefaultColor();
+    }
+
+    public void setBorderColor(int color) {
+
+        setBorderColor(ColorStateList.valueOf(color));
     }
 
     public void setBorderColor(ColorStateList colors) {
@@ -320,11 +323,6 @@ public class RoundedImageView extends ImageView {
         if (borderWidth > 0) {
             invalidate();
         }
-    }
-
-    public void setBorderColor(int color) {
-
-        setBorderColor(ColorStateList.valueOf(color));
     }
 
     public ColorStateList getBorderColors() {

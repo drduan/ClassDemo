@@ -1,6 +1,5 @@
 package neusoft.duanxudong.com.classdemo.activity;
 
-import android.media.MediaCodec;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.webkit.WebSettings;
@@ -9,7 +8,6 @@ import android.webkit.WebView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
-import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 
 /**
  * Created by duanxudong on 16/4/12.

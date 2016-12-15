@@ -10,13 +10,6 @@
     <!--  当在 我的 界面 点击 设置时候  跳转到 设置界面-->
 
 
-
-
-
-
-
-
-
     <LinearLayout
         android:id="@+id/mysetting_layout"
         android:layout_width="match_parent"
@@ -24,6 +17,7 @@
 
         android:background="@color/gray"
         android:orientation="vertical">
+
         <include layout="@layout/ask_toolbar" />
 
         <RelativeLayout

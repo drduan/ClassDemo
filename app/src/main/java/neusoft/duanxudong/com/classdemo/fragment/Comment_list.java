@@ -8,12 +8,10 @@ import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.util.ArrayMap;
-import android.transition.Visibility;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
@@ -56,27 +54,17 @@ import okhttp3.Response;
 public class Comment_list extends Fragment {
 
 
-    private User user;
-
-    private long subid;
-
-    private String a;
-
-
-
-    private List<Comment> list;
     @Bind(R.id.comment_list)
     ListView comment_list;
     ArrayList<Map<String, Object>> datalist;
-
     @Bind(R.id.comment_edit)
     EditText comment_edit;
-
     String comment_content;
-
     ProgressDialog progressDialog;
-
-
+    private User user;
+    private long subid;
+    private String a;
+    private List<Comment> list;
 
     @Nullable
     @Override
@@ -103,7 +91,6 @@ public class Comment_list extends Fragment {
 
 
         if (user != null) {
-
 
 
 //            jpanel.setVisibility(View.VISIBLE);
@@ -229,7 +216,7 @@ public class Comment_list extends Fragment {
     public void onStart() {
         super.onStart();
         EventBus.getDefault().register(this);
-        Toast.makeText(getActivity(),"onstart",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), "onstart", Toast.LENGTH_SHORT).show();
 
     }
 

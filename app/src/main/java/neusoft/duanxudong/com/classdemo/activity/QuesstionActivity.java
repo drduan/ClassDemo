@@ -6,23 +6,22 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
 
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
 
 
-public class QuesstionActivity extends  BaseActivity implements View.OnClickListener {
+public class QuesstionActivity extends BaseActivity implements View.OnClickListener {
 
 
     @Bind(R.id.monikaoshi)
-     LinearLayout monikaoshi;
+    LinearLayout monikaoshi;
 
     @Bind(R.id.cuotilianxi)
-     LinearLayout cuotilianxi;
+    LinearLayout cuotilianxi;
 
     @Bind(R.id.zhangjielianxi)
-     LinearLayout  simu_kaoshi;
+    LinearLayout simu_kaoshi;
 
     @Bind(R.id.toolbar)
     Toolbar toolbar;
@@ -47,13 +46,9 @@ public class QuesstionActivity extends  BaseActivity implements View.OnClickList
     }
 
 
-
-
-
-
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(this,Simu_kaoshi.class);
+        Intent intent = new Intent(this, Simu_kaoshi.class);
         startActivity(intent);
 
     }

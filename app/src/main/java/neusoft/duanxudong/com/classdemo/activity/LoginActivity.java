@@ -10,14 +10,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.google.gson.Gson;
 
 import java.io.IOException;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import cn.smssdk.gui.RegisterPage;
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.model.User;
 import okhttp3.Call;
@@ -177,7 +175,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 Log.i("@@", "" + r);
 
 
-                if ( null == response || r.isEmpty()) {
+                if (null == response || r.isEmpty()) {
 
                     runOnUiThread(
                             new Runnable() {
@@ -193,7 +191,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
                     Log.d("response", "@@" + response.body().toString());
 
-                    User user = new Gson().fromJson(r,RegLog.class).getUser();
+                    User user = new Gson().fromJson(r, RegLog.class).getUser();
 
 
                     getPreferenceManager().save(User.class.getName(), new Gson().toJson(user));

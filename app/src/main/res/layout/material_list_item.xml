@@ -20,6 +20,6 @@
         android:layout_weight="1"
         android:gravity="center_vertical"
         android:text="理论文章"
-        android:textSize="18sp"
-        android:textColor="#263238"/>
+        android:textColor="#263238"
+        android:textSize="18sp" />
 </LinearLayout>

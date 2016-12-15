@@ -20,54 +20,55 @@ import neusoft.duanxudong.com.classdemo.model.FileResource;
 public class ListAsyncTask<T> extends AsyncTask {
     private List<T> list;
     private String mUrl;
-    public ListAsyncTask(String url){
-        this.mUrl=url;
-    }
 
-    public void setList(List<T> list) {
-        this.list = list;
+    public ListAsyncTask(String url) {
+        this.mUrl = url;
     }
 
     public List<T> getList() {
         return list;
     }
 
-    public void setmUrl(String mUrl) {
-        this.mUrl = mUrl;
+    public void setList(List<T> list) {
+        this.list = list;
     }
 
     public String getmUrl() {
         return mUrl;
     }
 
+    public void setmUrl(String mUrl) {
+        this.mUrl = mUrl;
+    }
+
     @Override
     protected List<T> doInBackground(Object[] params) {
         try {
-            URL url=new URL(mUrl);
-            HttpURLConnection conn= (HttpURLConnection) url.openConnection();
+            URL url = new URL(mUrl);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.setReadTimeout(3000);
             conn.setDoInput(true);
 
-            InputStream is=conn.getInputStream();
+            InputStream is = conn.getInputStream();
 
 //            byte[] data=StreamTool.read(is);
 //            String json=new String(data);
 
-            BufferedReader reader=new BufferedReader(new InputStreamReader(is));
-            StringBuffer sb=new StringBuffer();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+            StringBuffer sb = new StringBuffer();
             String str;
-            while((str=reader.readLine())!=null){
+            while ((str = reader.readLine()) != null) {
                 sb.append(str);
             }
-            System.out.println("+++"+sb);
-            org.json.JSONObject jsonObject=new org.json.JSONObject(sb.toString());
+            System.out.println("+++" + sb);
+            org.json.JSONObject jsonObject = new org.json.JSONObject(sb.toString());
 
-            org.json.JSONArray array=jsonObject.getJSONArray("list");
+            org.json.JSONArray array = jsonObject.getJSONArray("list");
 
-            for(int i=0;i<array.length();i++){
-                org.json.JSONObject object=array.getJSONObject(i);
-                FileResource fileResource=new FileResource();
+            for (int i = 0; i < array.length(); i++) {
+                org.json.JSONObject object = array.getJSONObject(i);
+                FileResource fileResource = new FileResource();
                 fileResource.setFid((Integer) object.get("fid"));
                 fileResource.setFile_add_time((Timestamp) object.get("file_add_time"));
 

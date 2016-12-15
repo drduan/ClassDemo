@@ -9,15 +9,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-
-import java.util.Set;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
-import neusoft.duanxudong.com.classdemo.model.Answer;
 import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 
 /**
@@ -44,7 +39,8 @@ public class AskItemMore extends BaseActivity {
     @Bind(R.id.likePic)
     ImageView likepic;
     long ask_id;
-    boolean a ;
+    boolean a;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,14 +69,13 @@ public class AskItemMore extends BaseActivity {
 
 
                 if (a) {
-                    LoggingUtils.debug("@@",a+"true");
+                    LoggingUtils.debug("@@", a + "true");
                     likepic.setImageResource(R.drawable.module_treehole_like_true);
                     a = false;
 
 
-
                 } else {
-                    LoggingUtils.debug("@@",a+"false");
+                    LoggingUtils.debug("@@", a + "false");
                     likepic.setImageResource(R.drawable.module_treehole_like_normal);
                     a = true;
                 }
@@ -89,19 +84,17 @@ public class AskItemMore extends BaseActivity {
         });
 
 
-
         IAnswer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
                 Intent intent1 = new Intent();
-                intent1.setClass(AskItemMore.this,DoAnswer.class);
+                intent1.setClass(AskItemMore.this, DoAnswer.class);
                 startActivity(intent1);
             }
         });
     }
-
 
 
 }

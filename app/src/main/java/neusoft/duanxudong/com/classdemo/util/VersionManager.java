@@ -11,5 +11,4 @@ public class VersionManager {
     private static final String STORE_APK = "chunyu_apk";
 
 
-    
 }

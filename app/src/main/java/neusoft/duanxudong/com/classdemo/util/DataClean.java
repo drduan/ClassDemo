@@ -45,7 +45,7 @@ public class DataClean {
      * @param context
      */
     public static void cleanInternalCache(Context context) {
-        deleteFolderFile(context.getCacheDir().toString(),true);
+        deleteFolderFile(context.getCacheDir().toString(), true);
     }
 
     /**
@@ -67,6 +67,7 @@ public class DataClean {
         deleteFilesByDirectory(new File("/data/data/"
                 + context.getPackageName() + "/shared_prefs"));
     }
+
     /**
      * * 按名字清除本应用数据库 * *
      *
@@ -97,11 +98,11 @@ public class DataClean {
             deleteFilesByDirectory(context.getExternalCacheDir());
         }
     }
+
     /**
      * * 清除自定义路径下的文件，使用需小心，请不要误删。而且只支持目录下的文件删除 * *
      *
-     * @param filePath
-     * "/"
+     * @param filePath "/"
      */
     public static void cleanCustomCache(String filePath) {
         deleteFilesByDirectory(new File(filePath));
@@ -126,6 +127,7 @@ public class DataClean {
             cleanCustomCache(filePath);
         }
     }
+
     /**
      * * 删除方法 这里只会删除某个文件夹下的文件，如果传入的directory是个文件，将不做处理 * *
      *
@@ -159,6 +161,7 @@ public class DataClean {
         }
         return size;
     }
+
     /**
      * 删除指定目录下文件及目录
      *
@@ -188,10 +191,11 @@ public class DataClean {
             } catch (Exception e) {
 
                 e.printStackTrace();
-                Log.e("","@@DateClean failed");
+                Log.e("", "@@DateClean failed");
             }
         }
     }
+
     /**
      * 格式化单位
      *
@@ -232,7 +236,6 @@ public class DataClean {
     public static String getCacheSize(File file) throws Exception {
         return getFormatSize(getFolderSize(file));
     }
-
 
 
 }

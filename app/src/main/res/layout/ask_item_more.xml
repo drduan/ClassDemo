@@ -11,16 +11,13 @@
     <!--问题详情页-->
 
 
-
-
     <TextView
-        android:layout_marginStart="3dp"
-        android:padding="3dp"
         android:id="@+id/item_more_askname"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
 
-        android:layout_height="wrap_content" />
-
+        android:padding="3dp" />
 
 
     <LinearLayout
@@ -102,8 +99,6 @@
                 android:text="0" />
         </LinearLayout>
     </LinearLayout>
-
-
 
 
     <ListView

@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/background"
     tools:context="neusoft.duanxudong.com.classdemo.activity.ExamActivity">
 
-    <include layout="@layout/normal_bar"/>
+    <include layout="@layout/normal_bar" />
 
     <ListView
         android:id="@+id/listview"
@@ -15,6 +15,6 @@
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:background="@color/white"
-        android:paddingLeft="10dp"/>
+        android:paddingLeft="10dp" />
 
 </LinearLayout>

@@ -163,6 +163,15 @@ public class BaseActivity extends AppCompatActivity {
 //        }
 //    }
 
+    public static void hideSoftInput(Activity activity) {
+        View view = activity.getWindow().peekDecorView();
+        if (view != null) {
+            InputMethodManager inputmanger = (InputMethodManager) activity
+                    .getSystemService(Context.INPUT_METHOD_SERVICE);
+            inputmanger.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+    }
+
     /**
      * 设置 Title;
      *
@@ -173,7 +182,7 @@ public class BaseActivity extends AppCompatActivity {
         this.setTitle(getString(titleId));
     }
 
-//    /**
+    //    /**
 //     * 设置 Title；
 //     *
 //     * @param title
@@ -202,15 +211,6 @@ public class BaseActivity extends AppCompatActivity {
 //        preferenceManager = PreferenceManager.getInstance(getApplicationContext());
 
 //        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-    }
-
-    public static void hideSoftInput(Activity activity) {
-        View view = activity.getWindow().peekDecorView();
-        if (view != null) {
-            InputMethodManager inputmanger = (InputMethodManager) activity
-                    .getSystemService(Context.INPUT_METHOD_SERVICE);
-            inputmanger.hideSoftInputFromWindow(view.getWindowToken(), 0);
-        }
     }
 
 //    @Override
@@ -462,20 +462,17 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public int getColorPrimary() {
-        TypedValue typedValue = new  TypedValue();
+        TypedValue typedValue = new TypedValue();
         getTheme().resolveAttribute(R.attr.colorPrimary, typedValue, true);
         return typedValue.data;
     }
 
 
-
     public int getDarkColorPrimary() {
-        TypedValue typedValue = new  TypedValue();
+        TypedValue typedValue = new TypedValue();
         getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValue, true);
         return typedValue.data;
     }
-
-
 
 
     private void setTranslucentStatus(boolean on) {

@@ -18,10 +18,13 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+
 import com.bumptech.glide.Glide;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
@@ -33,13 +36,15 @@ import neusoft.duanxudong.com.classdemo.util.Utils;
  */
 public class Activity_Post extends BaseActivity {
 
+    private static final int TAKE_PHOTO = 1;
+    private static final int CROP_PHOTO = 2;
+    private static final int GET_FROM_ALBUM = 3;
     @Bind(R.id.addImageButton)
     ImageView mAddImageButton;
     @Bind(R.id.imageLayout)
     RelativeLayout mImageLayout;
     @Bind(R.id.deleteImageButton)
     ImageButton mDeleteImageButton;
-    private Uri mUploadImageUri;
     @Bind(R.id.time_ac)
     EditText time_ac;
     @Bind(R.id.state)
@@ -48,11 +53,8 @@ public class Activity_Post extends BaseActivity {
     Toolbar mToolbar;
     @Bind(R.id.imageView)
     ImageView mImageView;
-
+    private Uri mUploadImageUri;
     private File mUpLoadImageFile;
-    private static final int TAKE_PHOTO = 1;
-    private static final int CROP_PHOTO = 2;
-    private static final int GET_FROM_ALBUM = 3;
     private boolean hasImage;
 
     @Override

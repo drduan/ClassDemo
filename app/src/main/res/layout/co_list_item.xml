@@ -6,16 +6,16 @@
 
 
     <ImageView
+        android:id="@+id/co_imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawingCacheQuality="auto"
-        android:fitsSystemWindows="true"
-        android:id="@+id/co_imageView" />
+        android:fitsSystemWindows="true" />
 
     <TextView
+        android:id="@+id/co_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
-        android:id="@+id/co_textView" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 </LinearLayout>

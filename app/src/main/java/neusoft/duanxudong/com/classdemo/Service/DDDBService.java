@@ -1,7 +1,6 @@
 package neusoft.duanxudong.com.classdemo.Service;
 
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 

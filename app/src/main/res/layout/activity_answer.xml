@@ -8,7 +8,8 @@
     android:weightSum="1">
 
 
-    <include layout="@layout/normal_bar"/>
+    <include layout="@layout/normal_bar" />
+
     <TextView
 
         android:id="@+id/edit_ans_title"

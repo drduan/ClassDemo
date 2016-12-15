@@ -62,7 +62,7 @@ public class PlayerActivity extends BaseActivity implements OnBufferingUpdateLis
         try {
             Intent intent = getIntent();
             path = intent.getStringExtra("video_url");
-            Log.i("video_url",path);
+            Log.i("video_url", path);
             mMediaPlayer = new MediaPlayer();
             mMediaPlayer.setDataSource(path);
             mMediaPlayer.setDisplay(holder);
@@ -140,11 +140,10 @@ public class PlayerActivity extends BaseActivity implements OnBufferingUpdateLis
 //    }
 
 
-
     //替换
     @Override
     public void onDestroy() {
-        if(mMediaPlayer != null) {
+        if (mMediaPlayer != null) {
             mMediaPlayer.release();
             mMediaPlayer = null;
         }
@@ -154,12 +153,11 @@ public class PlayerActivity extends BaseActivity implements OnBufferingUpdateLis
     @Override
     public void onResume() {
         super.onResume();
-        if(mMediaPlayer!= null) {
+        if (mMediaPlayer != null) {
             mMediaPlayer.start();
         }
 
     }
-
 
 
     private void releaseMediaPlayer() {

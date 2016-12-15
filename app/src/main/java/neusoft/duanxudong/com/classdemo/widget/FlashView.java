@@ -198,7 +198,7 @@ public class FlashView extends FrameLayout {
 
             } catch (Exception e) {
 
-                LoggingUtils.error("error",e.getMessage());
+                LoggingUtils.error("error", e.getMessage());
             }
         }
 
@@ -215,6 +215,122 @@ public class FlashView extends FrameLayout {
                 dotViewsList.get(i).setBackgroundResource(R.drawable.dot_white);
             } else {
                 dotViewsList.get(i).setBackgroundResource(R.drawable.dot_light);
+            }
+        }
+    }
+
+    @SuppressWarnings("unused")
+    private void destoryBitmaps() {
+        for (int i = 0; i < imageViewsList.size(); i++) {
+            ImageView imageView = imageViewsList.get(i);
+            Drawable drawable = imageView.getDrawable();
+            if (drawable != null) {
+                drawable.setCallback(null);
+            }
+        }
+    }
+
+    public void setEffect(int selectEffect) {
+        switch (selectEffect) {
+            case 0:
+                setPageTransformer(true, new AccordionTransformer());
+                break;
+            case 1:
+                setPageTransformer(true, new CubeTransformer());
+                break;
+            case 2:
+                setPageTransformer(true, new DefaultTransformer());
+                break;
+            case 3:
+                setPageTransformer(true, new DepthPageTransformer());
+                break;
+            case 4:
+                setPageTransformer(true, new InRightDownTransformer());
+                break;
+            case 5:
+                setPageTransformer(true, new InRightUpTransformer());
+                break;
+            case 6:
+                setPageTransformer(true, new RotateTransformer());
+                break;
+            case 7:
+                setPageTransformer(true, new ZoomOutPageTransformer());
+
+                break;
+            default:
+                break;
+        }
+    }
+
+    /**
+     * 设置切换效果
+     *
+     * @param b
+     * @param rotateTransformer
+     */
+    public void setPageTransformer(boolean b, PageTransformer rotateTransformer) {
+        // TODO Auto-generated method stub
+        mViewPager.setPageTransformer(b, rotateTransformer);
+    }
+
+    public void stopFlash() {
+
+        mhandler.removeCallbacksAndMessages(null);
+
+    }
+
+    private static class ImageHandler extends Handler {
+
+        protected static final int MSG_UPDATE_IMAGE = 1;
+
+        protected static final int MSG_KEEP_SILENT = 2;
+
+        protected static final int MSG_BREAK_SILENT = 3;
+
+        protected static final int MSG_PAGE_CHANGED = 4;
+
+        protected static final long MSG_DELAY = 2000;
+
+        private WeakReference<FlashView> weakReference;
+        private int currentItem = 0;
+
+        protected ImageHandler(WeakReference<FlashView> wk) {
+            weakReference = wk;
+            System.out.println("dsfdsfdsf:::" + currentItem);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+
+            FlashView activity = weakReference.get();
+            if (activity == null) {
+                return;
+            }
+            if (activity.mhandler.hasMessages(MSG_UPDATE_IMAGE)) {
+                if (currentItem > 0)// 这里必须加入currentItem>0的判断，否则不能完美的自动轮播
+                {
+                    activity.mhandler.removeMessages(MSG_UPDATE_IMAGE);
+                }
+            }
+            switch (msg.what) {
+                case MSG_UPDATE_IMAGE:
+//		 System.out.println("cccccc:::" + currentItem);
+                    currentItem++;
+                    activity.mViewPager.setCurrentItem(currentItem);
+                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
+                    break;
+                case MSG_KEEP_SILENT:
+                    break;
+                case MSG_BREAK_SILENT:
+                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
+                    break;
+                case MSG_PAGE_CHANGED:
+                    currentItem = msg.arg1;
+                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
+                    break;
+                default:
+                    break;
             }
         }
     }
@@ -290,7 +406,6 @@ public class FlashView extends FrameLayout {
         public void onPageScrollStateChanged(int arg0) {
 
 
-
             switch (arg0) {
                 case ViewPager.SCROLL_STATE_DRAGGING:
                     mhandler.sendEmptyMessage(ImageHandler.MSG_KEEP_SILENT);
@@ -309,7 +424,7 @@ public class FlashView extends FrameLayout {
         @Override
         public void onPageScrolled(int arg0, float arg1, int arg2) {
             // TODO Auto-generated method stub
-      }
+        }
 
         @Override
         public void onPageSelected(int pos) {
@@ -320,60 +435,6 @@ public class FlashView extends FrameLayout {
 
         }
 
-    }
-
-    @SuppressWarnings("unused")
-    private void destoryBitmaps() {
-        for (int i = 0; i < imageViewsList.size(); i++) {
-            ImageView imageView = imageViewsList.get(i);
-            Drawable drawable = imageView.getDrawable();
-            if (drawable != null) {
-                drawable.setCallback(null);
-            }
-        }
-    }
-
-    public void setEffect(int selectEffect) {
-        switch (selectEffect) {
-            case 0:
-                setPageTransformer(true, new AccordionTransformer());
-                break;
-            case 1:
-                setPageTransformer(true, new CubeTransformer());
-                break;
-            case 2:
-                setPageTransformer(true, new DefaultTransformer());
-                break;
-            case 3:
-                setPageTransformer(true, new DepthPageTransformer());
-                break;
-            case 4:
-                setPageTransformer(true, new InRightDownTransformer());
-                break;
-            case 5:
-                setPageTransformer(true, new InRightUpTransformer());
-                break;
-            case 6:
-                setPageTransformer(true, new RotateTransformer());
-                break;
-            case 7:
-                setPageTransformer(true, new ZoomOutPageTransformer());
-
-                break;
-            default:
-                break;
-        }
-    }
-
-    /**
-     * 设置切换效果
-     *
-     * @param b
-     * @param rotateTransformer
-     */
-    public void setPageTransformer(boolean b, PageTransformer rotateTransformer) {
-        // TODO Auto-generated method stub
-        mViewPager.setPageTransformer(b, rotateTransformer);
     }
 
     /**
@@ -402,76 +463,13 @@ public class FlashView extends FrameLayout {
             super.startScroll(startX, startY, dx, dy, mDuration);
         }
 
-        public void setmDuration(int time) {
-            mDuration = time;
-        }
-
         public int getmDuration() {
             return mDuration;
         }
-    }
 
-    private static class ImageHandler extends Handler {
-
-        protected static final int MSG_UPDATE_IMAGE = 1;
-
-        protected static final int MSG_KEEP_SILENT = 2;
-
-        protected static final int MSG_BREAK_SILENT = 3;
-
-        protected static final int MSG_PAGE_CHANGED = 4;
-
-        protected static final long MSG_DELAY = 2000;
-
-        private WeakReference<FlashView> weakReference;
-        private int currentItem = 0;
-
-        protected ImageHandler(WeakReference<FlashView> wk) {
-            weakReference = wk;
-            System.out.println("dsfdsfdsf:::" + currentItem);
+        public void setmDuration(int time) {
+            mDuration = time;
         }
-
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-
-            FlashView activity = weakReference.get();
-            if (activity == null) {
-                return;
-            }
-            if (activity.mhandler.hasMessages(MSG_UPDATE_IMAGE)) {
-                if (currentItem > 0)// 这里必须加入currentItem>0的判断，否则不能完美的自动轮播
-                {
-                    activity.mhandler.removeMessages(MSG_UPDATE_IMAGE);
-                }
-            }
-            switch (msg.what) {
-                case MSG_UPDATE_IMAGE:
-//		 System.out.println("cccccc:::" + currentItem);
-                    currentItem++;
-                    activity.mViewPager.setCurrentItem(currentItem);
-                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
-                    break;
-                case MSG_KEEP_SILENT:
-                    break;
-                case MSG_BREAK_SILENT:
-                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
-                    break;
-                case MSG_PAGE_CHANGED:
-                    currentItem = msg.arg1;
-                    activity.mhandler.sendEmptyMessageDelayed(MSG_UPDATE_IMAGE, MSG_DELAY);
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-
-
-    public  void stopFlash(){
-
-        mhandler.removeCallbacksAndMessages(null);
-
     }
 }
 

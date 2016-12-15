@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -22,9 +21,9 @@ public class DoAnswer extends BaseActivity {
 
 
     @Bind(R.id.ans_submit)
-     Button do_answer_submit;
+    Button do_answer_submit;
     @Bind(R.id.ans_cancle)
-     Button do_answer_cancel;
+    Button do_answer_cancel;
 
 
     @Bind(R.id.toolbar)

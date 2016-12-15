@@ -1,21 +1,18 @@
 package neusoft.duanxudong.com.classdemo.model;
 
-import java.sql.Date;
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 
 
 public class FileResource {
 
 
-
+    String file_subject;
+    String push_name;
     private java.util.Date file_add_time;
     private String file_name;
     private int file_size;
     private String file_format;
     private String file_path;
-    String file_subject;
-    String push_name;
     private long fid;
 
     public long getFid() {

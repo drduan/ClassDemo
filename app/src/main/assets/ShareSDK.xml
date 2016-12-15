@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DevInfor>
 
-	<ShareSDK
-		AppKey="10199e558ea3b"
+    <ShareSDK AppKey="10199e558ea3b"
 
-		/>
+    />
     <!--
     	说明：
     	
@@ -56,30 +55,18 @@
 			Line           http://media.line.me/zh-hant/
 			Pocket         http://getpocket.com/developer/apps/new
     -->
-    
-  <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
-    
-    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
-    <SinaWeibo
-        Id="1"
-        SortId="1"
-        AppKey="3044925663"
-        AppSecret="9e3c36948045f03edb9eed39eff14adb"
-        RedirectUrl="http://saesea.cn"
-		ShareByAppClient="true"
-        Enable="true" />
 
+    <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <SinaWeibo AppKey="3044925663" AppSecret="9e3c36948045f03edb9eed39eff14adb" Enable="true" Id="1"
+        RedirectUrl="http://saesea.cn" ShareByAppClient="true" SortId="1" />
 
 
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
-    <QZone
-        Id="3"
-        SortId="3"
-        AppId="1105235546"
-        AppKey="ETZlfHZ477iQW1Q6"
-        ShareByAppClient="true"
-        Enable="true" />
-    
+    <QZone AppId="1105235546" AppKey="ETZlfHZ477iQW1Q6" Enable="true" Id="3" ShareByAppClient="true"
+        SortId="3" />
+
     <!-- 
     	Wechat微信和WechatMoments微信朋友圈的appid是一样的；
     
@@ -94,44 +81,23 @@
 	-->
     <Wechat
 
-        Id="4"
-        SortId="4"
-        AppId="wx4d26418480522a54"
-        AppSecret="36c152093bd9d3b5ecff1ad72c7b1167"
-        BypassApproval="true"
-        Enable="true" />
-    
-    <WechatMoments
-        Id="5"
-        SortId="5"
-        AppId="wx4d26418480522a54"
-        AppSecret="36c152093bd9d3b5ecff1ad72c7b1167"
-        BypassApproval="false"
-        Enable="true" />
-        
-	<WechatFavorite
-        Id="6"
-        SortId="6"
-        AppId="wx4d26418480522a54"
-        AppSecret="36c152093bd9d3b5ecff1ad72c7b1167"
-        Enable="true" />
-    
-	<!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
-	<QQ
-        Id="7"
-        SortId="7"
-        AppId="1105235546"
-        AppKey="ETZlfHZ477iQW1Q6"
-        ShareByAppClient="true"
-        Enable="true" />
+        AppId="wx4d26418480522a54" AppSecret="36c152093bd9d3b5ecff1ad72c7b1167" BypassApproval="true" Enable="true"
+        Id="4" SortId="4" />
 
-    
-    <Email
-        Id="12" 
-        SortId="12"
-        Enable="true" />
+    <WechatMoments AppId="wx4d26418480522a54" AppSecret="36c152093bd9d3b5ecff1ad72c7b1167" BypassApproval="false"
+        Enable="true" Id="5" SortId="5" />
 
-        
+    <WechatFavorite AppId="wx4d26418480522a54" AppSecret="36c152093bd9d3b5ecff1ad72c7b1167" Enable="true"
+        Id="6" SortId="6" />
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <QQ AppId="1105235546" AppKey="ETZlfHZ477iQW1Q6" Enable="true" Id="7" ShareByAppClient="true"
+        SortId="7" />
+
+
+    <Email Enable="true" Id="12" SortId="12" />
+
+
     <!-- 
     	在中国大陆，印象笔记有两个服务器，一个是沙箱（sandbox），一个是生产服务器（china）。
     	一般你注册应用，它会先让你使用sandbox，当你完成测试以后，可以到
@@ -143,7 +109,7 @@
     	是需要将应用信息中的“ShareByAppClient”设置为true，此字段默认值为false。
     -->
 
-    
+
     <!-- 
     	Yixin易信和YixinMoments易信朋友圈的appid是一样的；
     
@@ -157,16 +123,9 @@
 		默认值为false。
 	-->
 
-    
-    <Bluetooth
-        Id="36"
-        SortId="36"
-        Enable="false" />
 
-    
-     <Alipay
-        Id="52"
-        SortId="52"  
-        AppId="2015072400185895"
-        Enable="true"/>
+    <Bluetooth Enable="false" Id="36" SortId="36" />
+
+
+    <Alipay AppId="2015072400185895" Enable="true" Id="52" SortId="52" />
 </DevInfor>

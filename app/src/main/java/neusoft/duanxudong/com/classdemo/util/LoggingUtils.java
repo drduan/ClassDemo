@@ -15,6 +15,7 @@ import android.util.Log;
 import neusoft.duanxudong.com.classdemo.BuildConfig;
 
 // utils
+
 /**
  * This util offers flexible logging for development of Android application. We
  * will need log information when the application is in working process. But it

@@ -31,36 +31,38 @@ import neusoft.duanxudong.com.classdemo.model.ExamQuestion;
 public class Simu_kaoshi extends BaseActivity {
 
 
-    private int count;
-    private int current;
-    private boolean wrongMode;
     @Bind(R.id.toolbar)
     Toolbar toolbar;
     @Bind(R.id.timmer)
     TextView timmer;
-
-
     long recLen;
-
-
     @Bind({R.id.answerA, R.id.answerB, R.id.answerC, R.id.answerD})
     RadioButton[] radioButtons;
-
     @Bind(R.id.btn_next)
     Button btn_next;
-
     @Bind(R.id.radioGroup)
     RadioGroup radioGroup;
-
     @Bind(R.id.question)
     TextView tv_question;
-
     @Bind(R.id.explaination)
     TextView tv_explaination;
-
     @Bind(R.id.btn_previous)
     Button btn_previous;
+    Handler handler = new Handler();
+    Runnable runnable = new Runnable() {
+        @Override
+        public void run() {
+            recLen++;
 
+            long min = recLen / 60;
+
+            timmer.setText(min + "分" + recLen % 60 + "秒");
+            handler.postDelayed(this, 1000);
+        }
+    };
+    private int count;
+    private int current;
+    private boolean wrongMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -245,21 +247,6 @@ public class Simu_kaoshi extends BaseActivity {
         });
 
     }
-
-
-    Handler handler = new Handler();
-    Runnable runnable = new Runnable() {
-        @Override
-        public void run() {
-            recLen++;
-
-            long min = recLen / 60;
-
-            timmer.setText(min + "分" + recLen % 60 + "秒");
-            handler.postDelayed(this, 1000);
-        }
-    };
-
 
     private List<Integer> checkAnswer(List<ExamQuestion> list) {
         List<Integer> wrongList = new ArrayList<Integer>();

@@ -56,7 +56,7 @@ public class DownloadRecycleViewAdapter extends RecyclerView.Adapter<DownloadRec
             public void onClick(View v) {
 
 
-                DownloadActivity.download(uris[position],names[position]);
+                DownloadActivity.download(uris[position], names[position]);
             }
         });
     }

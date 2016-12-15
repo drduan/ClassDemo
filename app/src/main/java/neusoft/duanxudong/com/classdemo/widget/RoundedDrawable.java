@@ -1,4 +1,3 @@
-
 package neusoft.duanxudong.com.classdemo.widget;
 
 import android.content.res.ColorStateList;
@@ -359,17 +358,17 @@ public class RoundedDrawable extends Drawable {
         return mBorderColor.getDefaultColor();
     }
 
-    public RoundedDrawable setBorderColor(int color) {
-
-        return setBorderColor(ColorStateList.valueOf(color));
-    }
-
     public RoundedDrawable setBorderColor(ColorStateList colors) {
 
         mBorderColor = colors != null ? colors : ColorStateList.valueOf(0);
         mBorderPaint.setColor(mBorderColor.getColorForState(getState(),
                 DEFAULT_BORDER_COLOR));
         return this;
+    }
+
+    public RoundedDrawable setBorderColor(int color) {
+
+        return setBorderColor(ColorStateList.valueOf(color));
     }
 
     public ColorStateList getBorderColors() {

@@ -12,8 +12,11 @@ public abstract class RefreshActivity extends BaseActivity {
     public String[] titles;
     public Bitmap[] bitmaps;
     public Handler handler;
+
     public abstract void initViews();
+
     public abstract void initData();
+
     public abstract void volleyRequest();
 
     @Override

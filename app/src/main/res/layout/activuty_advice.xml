@@ -37,14 +37,14 @@
             android:textSize="12sp" />
 
         <TextView
-        android:id="@+id/textView_show"
-        android:layout_width="fill_parent"
-        android:layout_height="20dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:text="x/y"
-        android:textColor="@color/dermvpure_text_regular"
-        android:textSize="12sp" />
+            android:id="@+id/textView_show"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="x/y"
+            android:textColor="@color/dermvpure_text_regular"
+            android:textSize="12sp" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

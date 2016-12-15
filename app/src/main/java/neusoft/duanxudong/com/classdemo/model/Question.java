@@ -5,8 +5,6 @@ import java.util.Date;
 import java.util.Set;
 
 
-
-
 public class Question {
     private long qid;
     private String asktitle;

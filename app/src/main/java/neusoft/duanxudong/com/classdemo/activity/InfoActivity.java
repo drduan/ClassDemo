@@ -1,13 +1,11 @@
 package neusoft.duanxudong.com.classdemo.activity;
 
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import com.marshalchen.ultimaterecyclerview.ui.DividerItemDecoration;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -18,12 +16,12 @@ import com.google.gson.Gson;
 import com.marshalchen.ultimaterecyclerview.UltimateRecyclerView;
 import com.marshalchen.ultimaterecyclerview.ui.DividerItemDecoration;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
 import org.json.JSONObject;
 
 import java.util.List;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.adapter.InfoRecycleViewAdapter;
 import neusoft.duanxudong.com.classdemo.model.Message;
@@ -61,7 +59,7 @@ public class InfoActivity extends BaseActivity {
         ultimateRecyclerView.enableDefaultSwipeRefresh(true);
         ultimateRecyclerView.addItemDecoration(new DividerItemDecoration(
 
-                    this, DividerItemDecoration.HORIZONTAL_LIST));
+                this, DividerItemDecoration.HORIZONTAL_LIST));
 
 
         ultimateRecyclerView.setDefaultOnRefreshListener(
@@ -82,12 +80,12 @@ public class InfoActivity extends BaseActivity {
 
 
     private void initData(List<Message> messages) {
-        int len=messages.size();
-        titles=new String[len];
-        imgUrls=new String[len];
-        for (int i=0;i<len;i++){
-            titles[i]=messages.get(i).getMsg_title();
-            imgUrls[i]=messages.get(i).getMsg_img();
+        int len = messages.size();
+        titles = new String[len];
+        imgUrls = new String[len];
+        for (int i = 0; i < len; i++) {
+            titles[i] = messages.get(i).getMsg_title();
+            imgUrls[i] = messages.get(i).getMsg_img();
         }
         initRecycleView();
     }
@@ -103,7 +101,7 @@ public class InfoActivity extends BaseActivity {
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(url, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
-                MessageModel messageModel  = new Gson().fromJson(response.toString(), MessageModel.class);
+                MessageModel messageModel = new Gson().fromJson(response.toString(), MessageModel.class);
                 Log.i("+++", "+++" + messageModel.toString());
                 initData(messageModel.getMessages());
             }

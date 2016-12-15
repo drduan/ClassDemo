@@ -4,6 +4,9 @@ import java.util.List;
 
 
 public class SubjectListModel {
+    private List<subject> list;
+    private List<subject> recommand;
+
     /**
      * @return the list
      */
@@ -18,8 +21,6 @@ public class SubjectListModel {
         this.list = list;
     }
 
-    private List<subject> list;
-
     public List<subject> getRecommand() {
         return recommand;
     }
@@ -27,6 +28,4 @@ public class SubjectListModel {
     public void setRecommand(List<subject> recommand) {
         this.recommand = recommand;
     }
-
-    private List<subject> recommand;
 }

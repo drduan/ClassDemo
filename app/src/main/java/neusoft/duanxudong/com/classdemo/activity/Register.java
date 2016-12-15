@@ -2,7 +2,6 @@ package neusoft.duanxudong.com.classdemo.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -39,6 +38,8 @@ import okhttp3.Response;
 public class Register extends BaseActivity {
 
 
+    private static final ScheduledExecutorService worker =
+            Executors.newSingleThreadScheduledExecutor();
     @Bind(R.id.input_name)
     EditText _nameText;
     @Bind(R.id.input_email)
@@ -51,17 +52,12 @@ public class Register extends BaseActivity {
     AppCompatButton _signupButton;
     @Bind(R.id.link_login)
     TextView _loginLink;
-
     @Bind(R.id.toolbar)
     Toolbar toolbar;
-
     ProgressDialog dialog;
-
     String response;
     String regMsg;
     User user;
-    private static final ScheduledExecutorService worker =
-            Executors.newSingleThreadScheduledExecutor();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -98,7 +94,6 @@ public class Register extends BaseActivity {
     public void signup() {
 
 
-
         if (validate()) {
 
 
@@ -123,7 +118,6 @@ public class Register extends BaseActivity {
             user.setName(name);
             user.setEmail(email);
             user.setPasswd(password);
-
 
 
             String aString = new Gson().toJson(user);
@@ -285,6 +279,10 @@ public class Register extends BaseActivity {
 
 class RegLog {
 
+    String result;
+    @SerializedName(value = "user", alternate = {"info"})
+    User user;
+
     public String getResult() {
         return result;
     }
@@ -293,8 +291,6 @@ class RegLog {
         this.result = result;
     }
 
-    String result;
-
     public User getUser() {
         return user;
     }
@@ -302,8 +298,5 @@ class RegLog {
     public void setUser(User user) {
         this.user = user;
     }
-
-    @SerializedName(value = "user",alternate = {"info"})
-    User user;
 
 }

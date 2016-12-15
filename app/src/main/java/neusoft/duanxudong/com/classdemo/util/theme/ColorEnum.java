@@ -22,12 +22,8 @@ public enum ColorEnum {
 
     private int value;
 
-    ColorEnum(int value){
+    ColorEnum(int value) {
         this.value = value;
-    }
-
-    public int getValue() {
-        return value;
     }
 
     public static ColorEnum mapValueToTheme(final int value) {
@@ -39,8 +35,11 @@ public enum ColorEnum {
         return getDefault();
     }
 
-    static ColorEnum getDefault()
-    {
+    static ColorEnum getDefault() {
         return ORANGE;
+    }
+
+    public int getValue() {
+        return value;
     }
 }

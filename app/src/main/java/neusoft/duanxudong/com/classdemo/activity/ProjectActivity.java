@@ -9,12 +9,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.gson.Gson;
 import com.marshalchen.ultimaterecyclerview.UltimateRecyclerView;
 import com.marshalchen.ultimaterecyclerview.ui.DividerItemDecoration;
 
@@ -87,7 +81,6 @@ public class ProjectActivity extends BaseActivity {
         ultimateRecyclerView.setHasFixedSize(false);
 
 
-
         fabbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -131,7 +124,6 @@ public class ProjectActivity extends BaseActivity {
         p_url.add("http://www.visionunion.com/article.jsp?code=201604050007");
 
     }
-
 
 
 }

@@ -23,8 +23,8 @@ import neusoft.duanxudong.com.classdemo.R;
 
 public class MaterialActivity extends BaseActivity {
     @Bind(R.id.material_list)
-     ListView mListView;
-     SimpleAdapter mListAdapter;
+    ListView mListView;
+    SimpleAdapter mListAdapter;
     @Bind(R.id.toolbar)
     Toolbar toolbar;
 
@@ -39,7 +39,7 @@ public class MaterialActivity extends BaseActivity {
         initListDatas();
     }
 
-     void initListDatas() {
+    void initListDatas() {
         String[] from = {"material_title", "material_image"};
         int[] to = {R.id.material_title, R.id.material_image};
         final List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();

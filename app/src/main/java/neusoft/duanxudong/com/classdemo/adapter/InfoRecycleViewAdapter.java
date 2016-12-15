@@ -1,9 +1,7 @@
 package neusoft.duanxudong.com.classdemo.adapter;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.widget.DrawableUtils;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,10 +12,11 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.marshalchen.ultimaterecyclerview.UltimateRecyclerviewViewHolder;
 import com.marshalchen.ultimaterecyclerview.UltimateViewAdapter;
-//import com.squareup.picasso.Picasso;
 
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.activity.DCApplication;
+
+//import com.squareup.picasso.Picasso;
 
 /**
  * Created by lisheng on 2016/3/28.
@@ -50,7 +49,7 @@ public class InfoRecycleViewAdapter extends UltimateViewAdapter<InfoRecycleViewA
 
     @Override
     public int getAdapterItemCount() {
-        return titles ==null ? 0 : titles.length;
+        return titles == null ? 0 : titles.length;
     }
 
     @Override
@@ -61,15 +60,15 @@ public class InfoRecycleViewAdapter extends UltimateViewAdapter<InfoRecycleViewA
     @Override
     public void onBindViewHolder(InfoViewHolder holder, int position) {
         holder.tv_info_title.setText(titles[position]);
-        Glide.with(mContext).load(imgUlrs[position]).into(holder.iv_info_img).onLoadFailed(null,ResourcesCompat.getDrawable(DCApplication.context.getResources(),R.drawable.head,null));
+        Glide.with(mContext).load(imgUlrs[position]).into(holder.iv_info_img).onLoadFailed(null, ResourcesCompat.getDrawable(DCApplication.context.getResources(), R.drawable.head, null));
 
 
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateHeaderViewHolder(ViewGroup parent) {
-        View view = LayoutInflater.from(mContext).inflate(R.layout.activity_info,null);
-        TextView textView= (TextView) view.findViewById(R.id.info_title);
+        View view = LayoutInflater.from(mContext).inflate(R.layout.activity_info, null);
+        TextView textView = (TextView) view.findViewById(R.id.info_title);
         return null;
     }
 

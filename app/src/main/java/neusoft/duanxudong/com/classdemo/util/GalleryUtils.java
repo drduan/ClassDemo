@@ -41,7 +41,7 @@ public class GalleryUtils {
     /**
      * Generate a image file name based on date
      */
-    public static  String generateImageName() {
+    public static String generateImageName() {
         return System.currentTimeMillis() + ".jpg";
     }
 
@@ -63,7 +63,7 @@ public class GalleryUtils {
      * Get file path of an Uri. Note that the file path is linux system file
      * path.
      *
-     * @param uri      Resource Uri
+     * @param uri Resource Uri
      * @return The file path
      */
     public static String getFilePath(Activity activity, Uri uri) {
@@ -342,7 +342,6 @@ public class GalleryUtils {
 
         return inSampleSize;
     }
-
 
 
 }

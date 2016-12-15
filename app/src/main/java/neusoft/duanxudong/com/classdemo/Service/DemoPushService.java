@@ -24,15 +24,17 @@ public class DemoPushService extends Service {
         return GTServiceManager.getInstance().onStartCommand(this, intent, flags, startId);
     }
 
- @Override
+    @Override
     public IBinder onBind(Intent intent) {
         return GTServiceManager.getInstance().onBind(intent);
     }
+
     @Override
     public void onDestroy() {
         super.onDestroy();
         GTServiceManager.getInstance().onDestroy();
     }
+
     @Override
     public void onLowMemory() {
         super.onLowMemory();

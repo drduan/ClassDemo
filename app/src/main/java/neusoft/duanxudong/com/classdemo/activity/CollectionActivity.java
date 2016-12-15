@@ -29,13 +29,13 @@ import neusoft.duanxudong.com.classdemo.util.MySingleton;
  */
 public class CollectionActivity extends BaseActivity {
 
-     List<subject> datas;
+    List<subject> datas;
     @Bind(R.id.colist)
-     ListView CoList;
+    ListView CoList;
     @Bind(R.id.toolbar)
     Toolbar toolbar;
-     RequestQueue mQueue;
-     SimpleAdapter adapter;
+    RequestQueue mQueue;
+    SimpleAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,9 +48,7 @@ public class CollectionActivity extends BaseActivity {
         ButterKnife.bind(CollectionActivity.this);
 
 
-
     }
-
 
 
     public void readBitmapByVolleyForListView(String imgUrl, final Map map, final SimpleAdapter mAdapter) {

@@ -26,7 +26,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <!-- iBeancon功能所需权限 -->;
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <!-- 个推3.0电 围栏功能所需权限 -->
 
     <!-- 个推SDK配置结束 -->
@@ -45,8 +45,7 @@
     <uses-permission android:name="getui.permission.GetuiService.${applicationId}" />
     <permission
         android:name="getui.permission.GetuiService.${applicationId}"
-        android:protectionLevel="normal" >
-    </permission>
+        android:protectionLevel="normal"></permission>
     <!-- 个推SDK权限配置结束 -->
 
     <application
@@ -70,7 +69,7 @@
             android:value="${GETUI_APP_KEY}" /><!--替换为第三方应用的APPKEY-->
         <meta-data
             android:name="PUSH_APPSECRET"
-            android:value="${GETUI_APP_KEY}"/><!--替换为第三方应用的APPSECRET-->
+            android:value="${GETUI_APP_KEY}" /><!--替换为第三方应用的APPSECRET-->
         <!-- 配置SDK核心服务 -->
 
         <service
@@ -79,17 +78,19 @@
             android:label="NotificationCenter"
             android:process=":pushservice">
             <intent-filter>
-                <action android:name="com.igexin.sdk.action.service.message"/>
+                <action android:name="com.igexin.sdk.action.service.message" />
             </intent-filter>
         </service>
-        <receiver android:name="com.igexin.sdk.PushReceiver" >
+        <receiver android:name="com.igexin.sdk.PushReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.intent.action.USER_PRESENT" />
                 <action android:name="com.igexin.sdk.action.refreshls" />
-                <!-- 以下三项为可选的action声明，可  提 service存活率和消息到达速度 --> <action android:name="android.intent.action.MEDIA_MOUNTED" />
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" /> <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <!-- 以下三项为可选的action声明，可  提 service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
         </receiver>
         <activity
@@ -98,13 +99,12 @@
             android:exported="false"
             android:process=":pushservice"
             android:taskAffinity="com.igexin.sdk.PushActivityTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
 
         <service
             android:name="com.igexin.download.DownloadService"
             android:process=":pushservice" />
-        <receiver  android:name="com.igexin.download.DownloadReceiver" >
+        <receiver android:name="com.igexin.download.DownloadReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
@@ -113,8 +113,8 @@
 
         <provider
             android:name="com.igexin.download.DownloadProvider"
-            android:exported="true"
             android:authorities="downloads.${applicationId}"
+            android:exported="true"
             android:process=":pushservice" />
         <activity
             android:name="com.igexin.sdk.GActivity"
@@ -122,14 +122,14 @@
             android:exported="true"
             android:process=":pushservice"
             android:taskAffinity="com.igexin.sdk.PushActivityTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
 
-        <service android:name=".Service.DemoPushService"
+        <service
+            android:name=".Service.DemoPushService"
             android:exported="true"
             android:label="PushService"
-            android:process=":pushservice"
-            />
+            android:process=":pushservice" />
         <receiver android:name="com.igexin.sdk.PushReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -178,8 +178,6 @@
             android:process=":pushservice" /><!--替换为第三方应用的包名-->
 
 
-
-
         <activity android:name=".activity.HomeActivity"
 
             >
@@ -202,9 +200,7 @@
             android:label="@string/grid_e_resource" />
 
 
-        <activity
-            android:name=".activity.MeActivity"
-          />
+        <activity android:name=".activity.MeActivity" />
 
 
         <activity android:name=".activity.CollectionActivity"
@@ -215,18 +211,16 @@
             android:label="@string/grid_exam_center" />
         <activity
             android:name=".activity.AskActivity"
-            android:label="@string/grid_ask"
-       />
+            android:label="@string/grid_ask" />
         <activity
             android:name=".activity.PlayerActivity"
             android:label="@string/title_activity_player"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".activity.LeadActivity"
+        <activity android:name=".activity.LeadActivity"
 
-     >
+            >
 
 
             <intent-filter>
@@ -236,8 +230,8 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".activity.Activity_Post"/>
-        <activity android:name=".activity.ProjectInfo"/>
+        <activity android:name=".activity.Activity_Post" />
+        <activity android:name=".activity.ProjectInfo" />
         <activity
             android:name=".activity.VideoExampleActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation" />
@@ -287,9 +281,8 @@
 
 
         <activity android:name=".activity.MeJoinedProject" />
-        <activity android:name=".activity.LookHis"/>
+        <activity android:name=".activity.LookHis" />
     </application>
-
 
 
     <supports-screens

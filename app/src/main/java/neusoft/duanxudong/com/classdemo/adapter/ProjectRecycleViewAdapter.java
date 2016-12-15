@@ -1,11 +1,9 @@
 package neusoft.duanxudong.com.classdemo.adapter;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
-import android.media.Image;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -25,7 +23,6 @@ import java.util.List;
 
 import neusoft.duanxudong.com.classdemo.R;
 import neusoft.duanxudong.com.classdemo.activity.ProjectInfo;
-import neusoft.duanxudong.com.classdemo.util.LoggingUtils;
 
 
 public class ProjectRecycleViewAdapter extends
@@ -101,7 +98,7 @@ public class ProjectRecycleViewAdapter extends
                 builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(context,"成功",Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "成功", Toast.LENGTH_LONG).show();
                     }
                 });
                 builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {

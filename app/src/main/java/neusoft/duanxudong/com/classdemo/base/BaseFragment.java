@@ -166,8 +166,6 @@ public class BaseFragment extends Fragment {
 //    }
 
 
-
-
     // ------------------------------------
     // Other methods
     // ------------------------------------

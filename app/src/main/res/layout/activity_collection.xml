@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <include layout="@layout/normal_bar"/>
+    <include layout="@layout/normal_bar" />
 
     <android.support.v7.widget.ListViewCompat
         android:id="@+id/colist"

@@ -8,11 +8,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-    >
+        android:orientation="vertical">
 
 
-        <include layout="@layout/normal_bar"/>
+        <include layout="@layout/normal_bar" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -89,8 +88,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:layout_marginTop="24dp"
-            android:padding="12dp"
             android:backgroundTint="@android:color/holo_green_dark"
+            android:padding="12dp"
             android:text="注册" />
 
         <TextView

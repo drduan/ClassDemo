@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -40,17 +39,7 @@ public class BaseActivity extends AppCompatActivity {
     private Stack<Object> mDialogs = new java.util.Stack<Object>();
 
     private Context context;
-
-    public Context getContext() {
-        return context;
-    }
-
-    public void setContext(Context context) {
-        this.context = context;
-    }
-
     private View mActionBarView;
-
 
     public static void hideSoftInput(Activity activity) {
         View view = activity.getWindow().peekDecorView();
@@ -60,16 +49,6 @@ public class BaseActivity extends AppCompatActivity {
             inputmanger.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
-
-
-    public PreferenceManager getPreferenceManager() {
-        if (preferenceManager != null) {
-            return preferenceManager;
-        }
-
-        return preferenceManager = PreferenceManager.getInstance(getApplicationContext());
-    }
-
 
     public static void loadRoundImage(Context context, String url, ImageView imageView) {
 
@@ -85,6 +64,22 @@ public class BaseActivity extends AppCompatActivity {
                 .crossFade()
                 .error(R.drawable.iconfont_login)
                 .into(imageView);
+    }
+
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
+    public PreferenceManager getPreferenceManager() {
+        if (preferenceManager != null) {
+            return preferenceManager;
+        }
+
+        return preferenceManager = PreferenceManager.getInstance(getApplicationContext());
     }
 
     @Override

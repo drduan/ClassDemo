@@ -8,8 +8,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
 
 public class CacheRequest extends Request<NetworkResponse> {
-        private final Response.Listener<NetworkResponse> mListener;
-//    private final WeakReference<Response.Listener<NetworkResponse>> mListener= null;
+    private final Response.Listener<NetworkResponse> mListener;
+    //    private final WeakReference<Response.Listener<NetworkResponse>> mListener= null;
     private final Response.ErrorListener mErrorListener;
 
     public CacheRequest(int method, String url, Response.Listener<NetworkResponse> listener, Response.ErrorListener errorListener) {

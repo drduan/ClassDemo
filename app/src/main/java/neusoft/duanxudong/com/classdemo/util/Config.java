@@ -25,52 +25,6 @@ public class Config {
         return Volley.newRequestQueue(context, null);
     }
 
-
-
-
-    //判断是否有网络连接
-    public boolean isNetworkConnected(Context context) {
-            if (context != null) {
-                  ConnectivityManager mConnectivityManager = (ConnectivityManager) context
-                            .getSystemService(Context.CONNECTIVITY_SERVICE);
-                     NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
-                   if (mNetworkInfo != null) {
-                          return mNetworkInfo.isAvailable();
-                      }
-               }
-           return false;
-         }
-
-
-    //判断是否有无线网络连接
-    public boolean isWifiConnected(Context context) {
-        if (context != null) {
-            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
-                    .getSystemService(Context.CONNECTIVITY_SERVICE);
-            NetworkInfo mWiFiNetworkInfo = mConnectivityManager
-                    .getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-            if (mWiFiNetworkInfo != null) {
-                return mWiFiNetworkInfo.isAvailable();
-            }
-        }
-        return false;
-    }
-
-    //判断MOBILE网络是否可用
-
-    public boolean isMobileConnected(Context context) {
-        if (context != null) {
-            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
-                    .getSystemService(Context.CONNECTIVITY_SERVICE);
-            NetworkInfo mMobileNetworkInfo = mConnectivityManager
-                    .getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-            if (mMobileNetworkInfo != null) {
-                return mMobileNetworkInfo.isAvailable();
-            }
-        }
-        return false;
-    }
-
     //获取当前网络连接的类型信息
     public static int getConnectedType(Context context) {
         if (context != null) {
@@ -84,52 +38,23 @@ public class Config {
         return -1;
     }
 
-    public static  boolean isExternalStorageWritable() {
+    public static boolean isExternalStorageWritable() {
         String state = Environment.getExternalStorageState();
         if (Environment.MEDIA_MOUNTED.equals(state)) {
 
-            Log.i("state@@@@@@@@@@@@@@@",""+state);
+            Log.i("state@@@@@@@@@@@@@@@", "" + state);
             //monted
             return true;
         }
         return false;
     }
 
+    //判断MOBILE网络是否可用
 
     public static boolean hasSDCardMounted() {
         String state = Environment.getExternalStorageState();
         return state != null && state.equals(Environment.MEDIA_MOUNTED);
     }
-
-    public String Md5(String plainText) {
-        String result = "";
-        try {
-            MessageDigest md = MessageDigest.getInstance("MD5");
-            md.update(plainText.getBytes());
-            byte b[] = md.digest();
-
-            int i;
-
-            StringBuffer buf = new StringBuffer("");
-            for (int offset = 0; offset < b.length; offset++) {
-                i = b[offset];
-                if (i < 0)
-                    i += 256;
-                if (i < 16)
-                    buf.append("0");
-                buf.append(Integer.toHexString(i));
-            }
-            result = buf.toString().toUpperCase(Locale.getDefault());// 32位的加密（转成大写）
-
-            buf.toString().substring(8, 24);// 16位的加密
-
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        return result;
-    }
-
-
 
     /*
     关闭键盘
@@ -142,27 +67,7 @@ public class Config {
                             .getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
     }
 
-
-
-
-
-    //获取分辨率
-    //转字符串到日期
-//    SimpleDateFormat format = new SimpleDateFormat( "dd.MM.yyyy" );
-//    Date date = format.parse( myString );
-
-//    6. 把 Java util.Date 转成 sql.Date
-
-//    java.util.Date utilDate = new java.util.Date();
-//    java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
-
-
-
-
-    //7创建图片缩略图
-
-
-   public static  String getMD5Str(String str) {
+    public static String getMD5Str(String str) {
         MessageDigest messageDigest = null;
 
         try {
@@ -192,9 +97,87 @@ public class Config {
         return md5StrBuff.substring(8, 24).toUpperCase(Locale.getDefault());
     }
 
+    //判断是否有网络连接
+    public boolean isNetworkConnected(Context context) {
+        if (context != null) {
+            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
+            if (mNetworkInfo != null) {
+                return mNetworkInfo.isAvailable();
+            }
+        }
+        return false;
+    }
+
+    //判断是否有无线网络连接
+    public boolean isWifiConnected(Context context) {
+        if (context != null) {
+            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo mWiFiNetworkInfo = mConnectivityManager
+                    .getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+            if (mWiFiNetworkInfo != null) {
+                return mWiFiNetworkInfo.isAvailable();
+            }
+        }
+        return false;
+    }
+
+    public boolean isMobileConnected(Context context) {
+        if (context != null) {
+            ConnectivityManager mConnectivityManager = (ConnectivityManager) context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo mMobileNetworkInfo = mConnectivityManager
+                    .getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+            if (mMobileNetworkInfo != null) {
+                return mMobileNetworkInfo.isAvailable();
+            }
+        }
+        return false;
+    }
 
 
+    //获取分辨率
+    //转字符串到日期
+//    SimpleDateFormat format = new SimpleDateFormat( "dd.MM.yyyy" );
+//    Date date = format.parse( myString );
 
+//    6. 把 Java util.Date 转成 sql.Date
+
+//    java.util.Date utilDate = new java.util.Date();
+//    java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
+
+
+    //7创建图片缩略图
+
+    public String Md5(String plainText) {
+        String result = "";
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            md.update(plainText.getBytes());
+            byte b[] = md.digest();
+
+            int i;
+
+            StringBuffer buf = new StringBuffer("");
+            for (int offset = 0; offset < b.length; offset++) {
+                i = b[offset];
+                if (i < 0)
+                    i += 256;
+                if (i < 16)
+                    buf.append("0");
+                buf.append(Integer.toHexString(i));
+            }
+            result = buf.toString().toUpperCase(Locale.getDefault());// 32位的加密（转成大写）
+
+            buf.toString().substring(8, 24);// 16位的加密
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
 
 }

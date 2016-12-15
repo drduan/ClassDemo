@@ -11,7 +11,6 @@ android {
         }
     }
 
-
     //有效期开始日期: Tue Oct 04 09:49:46 CST 2016, 截止日期: Thu Sep 27 09:49:46 CST 2046
 //    证书指纹:
 //    MD5: 9E:0F:8E:D9:F5:FE:8E:AF:08:A1:CA:D8:DB:A8:BB:E4
@@ -27,10 +26,10 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-        manifestPlaceholders=[
-                GETUI_APP_ID : "eIL8rrIhCg5ENrErEn1v74",
-                GETUI_APP_KEY : "YEqqkx8RNhA82mTJxntIV8",
-                GETUI_APP_SECRET : "WbGKUtBirt9rl2ebvOgjK2"
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "eIL8rrIhCg5ENrErEn1v74",
+                GETUI_APP_KEY   : "YEqqkx8RNhA82mTJxntIV8",
+                GETUI_APP_SECRET: "WbGKUtBirt9rl2ebvOgjK2"
         ]
 
         ndk {
