@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="subject_api">http://115.159.88.160:8080/ClassOnlineService/subject.json</string>
-    <string name="question_api">http://115.159.88.160:8080/ClassOnlineService/question.json</string>
-    <string name="ask_api">http://115.159.88.160:8080/ClassOnlineService/ask.action</string>
-    <string name="video_api">http://115.159.88.160:8080/ClassOnlineService/video.json</string>
-    <string name="user_register_api">http://115.159.88.160:8080/ClassOnlineService/user/register.action</string>
-    <string name="user_login_api">http://115.159.88.160:8080/ClassOnlineService/user/login.action</string>
-    <string name="info_api">http://115.159.88.160:8080/ClassOnlineService/user/login.action</string>
-    <string name="project_api">http://115.159.88.160:8080/ClassOnlineService/message/project.action</string>
-    <string name="user_info_change">http://115.159.88.160:8080/ClassOnlineService/user/avater.action</string>
+
+
+    <string name="caca">http://172.19.53.70:8080/ClassOnlineService/</string>
+    <string name="subject_api">http://172.19.53.70:8080/ClassOnlineService/subject.json</string>
+    <string name="question_api">http://172.19.53.70:8080/ClassOnlineService/question.json</string>
+    <string name="ask_api">http://172.19.53.70:8080/ClassOnlineService/ask.action</string>
+    <string name="video_api">http://172.19.53.70:8080/ClassOnlineService/video.json</string>
+    <string name="user_register_api">http://172.19.53.70:8080/ClassOnlineService/user/register.action</string>
+    <string name="user_login_api">http://172.19.53.70:8080/ClassOnlineService/user/login.action</string>
+    <string name="info_api">http://172.19.53.70:8080/ClassOnlineService/user/login.action</string>
+    <string name="project_api">http://172.19.53.70:8080/ClassOnlineService/message/project.action</string>
+    <string name="user_info_change">http://172.19.53.70:8080/ClassOnlineService/user/avater.action</string>
     <string name="news_api">http://apis.baidu.com/showapi_open_bus/channel_news/search_news</string>
     <string name="news_head_apikey">41f0dc2e3f547477edfbab7f19056765</string>
-    <string name="comment_api_action">http://115.159.88.160:8080/ClassOnlineService/Comment.action</string>
-    <string name="comment_api">http://115.159.88.160:8080/ClassOnlineService/Comment.json</string>
-    <string name="comment_Get_api">http://115.159.88.160:8080/ClassOnlineService/CommentGET.action</string>
+    <string name="comment_api_action">http://172.19.53.70:8080/ClassOnlineService/Comment.action</string>
+    <string name="comment_api">http://172.19.53.70:8080/ClassOnlineService/Comment.json</string>
+    <string name="comment_Get_api">http://172.19.53.70:8080/ClassOnlineService/CommentGET.action</string>
     <string name="gank">http://gank.io/api/day/2016/04/19</string>
 </resources>

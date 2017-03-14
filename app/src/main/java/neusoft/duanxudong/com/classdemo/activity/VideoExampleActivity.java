@@ -74,14 +74,15 @@ public class VideoExampleActivity extends BaseActivity
         subid = intent.getLongExtra("subject", 0L);
 
 
-//        HtmlEscapers
-//        Html
         if (list.isEmpty()) {
-            jcVideoPlayerStandard.setUp("", "", "");
+            jcVideoPlayerStandard.setUp(""
+                    , JCVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "");
 
         } else {
+            jcVideoPlayerStandard.setUp("http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4"
+                    , JCVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "嫂子闭眼睛");
+//            jcVideoPlayerStandard.thumbImageView.setImage("http://p.qpic.cn/videoyun/0/2449_43b6f696980311e59ed467f22794e792_1/640");
 
-            jcVideoPlayerStandard.setUp("http://www.saesea.cn:8080/ClassOnlineService/video/8852.mp4", "", "软件测试第一讲");
         }
 
         ViewPagerAdapter vpa = new ViewPagerAdapter(getSupportFragmentManager());
@@ -159,6 +160,7 @@ public class VideoExampleActivity extends BaseActivity
     protected void onPause() {
 
         JCVideoPlayer.releaseAllVideos();
+
         super.onPause();
     }
 
@@ -199,6 +201,15 @@ public class VideoExampleActivity extends BaseActivity
             e.printStackTrace();
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        if (JCVideoPlayer.backPress()) {
+            return;
+        }
+        super.onBackPressed();
+    }
+
 
 
 }

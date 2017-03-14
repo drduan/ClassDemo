@@ -90,14 +90,21 @@ public class MeActivity extends BaseActivity implements View.OnClickListener {
         user = new Gson().fromJson(userData, User.class);
 
         long id = 0;
-        id = user.getId();
-        initView();
-        phone.setText(user.getPhone());
-        nicheng.setText(user.getName());
-        passwd.setText(user.getPasswd());
-        grade.setText(user.getGrade());
-        head_image.setOnClickListener(this);
+//        id = user.getId();
+//        initView();
+//        phone.setText(user.getPhone());
+//        nicheng.setText(user.getName());
+//        passwd.setText(user.getPasswd());
+//        grade.setText(user.getGrade());
+//        head_image.setOnClickListener(this);
 
+        id = 1;
+        initView();
+        phone.setText("1333333333");
+        nicheng.setText("tom");
+        passwd.setText("ttt");
+        grade.setText("asd");
+        head_image.setOnClickListener(this);
 
     }
 

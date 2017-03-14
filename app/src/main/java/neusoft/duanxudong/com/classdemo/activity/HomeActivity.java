@@ -101,12 +101,12 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
         getDelegate().setLocalNightMode(AppCompatDelegate.getDefaultNightMode());
 
 
-        if (!TextUtils.isEmpty(userData)) {
+//        if (!TextUtils.isEmpty(userData)) {
             signup_label.setVisibility(View.INVISIBLE);
-            login_label.setText("用户名:" + user.getName());
+            login_label.setText("用户名:" + "张三");
             //loadRoundImage(getApplicationContext(), "http://www.bz55.com/uploads1/allimg/120312/1_120312100435_8.jpg", head_image);
 
-            loadRoundImage(getApplicationContext(), user.getHead_url(), head_image);
+            loadRoundImage(getApplicationContext(), "https://t3.ftcdn.net/jpg/00/23/30/06/500_F_23300646_uJdlgMZ5HZ1vGT2yvECX31yXUrb8CYnx.jpg", head_image);
 
             head_image.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -117,8 +117,8 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
                     startActivity(intent);
                 }
             });
-            return;
-        }
+//            return;
+//        }
 
 
         PushManager.getInstance().initialize(this.getApplicationContext(), DemoPushService.class);
